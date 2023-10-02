@@ -16,8 +16,8 @@ public class ArrayClass1
         System.out.println();
 
         System.out.println("arr2:");
-        for (int i = 0; i < obj.arr1.length; i++){
-            System.out.print(obj.arr1[i] + " ");
+        for (int i = 0; i < obj.arr2.length; i++){
+            System.out.print(obj.arr2[i] + " ");
         }
         System.out.println();
 

@@ -6,7 +6,7 @@ public class ArrayClass2 {
         int[] numbers = {1, 2, 3, 4, 5};
         try {
             // Access an element that is out of bounds
-            int index = 9;
+            int index = 4;
             int value = numbers[index];
             System.out.println("Value at index " + index + ": " + value);
         } catch (IndexOutOfBoundsException e) {
