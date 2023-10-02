@@ -1,6 +1,6 @@
 package ArrayPackages;
 
-public class ArrayClass2 {
+public class ArrayClassIndex {
 
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};

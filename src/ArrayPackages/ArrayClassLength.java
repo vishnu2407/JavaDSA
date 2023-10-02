@@ -1,13 +1,13 @@
 package ArrayPackages;
 import java.lang.*;
 
-public class ArrayClass1
+public class ArrayClassLength
 {
     int[] arr1 = {1, 2, 3, 4, 5};
     int[] arr2 = {6, 7, 8, 9, 10};
 
     public static void main(String[] args){
-        ArrayClass1 obj = new ArrayClass1();
+        ArrayClassLength obj = new ArrayClassLength();
 
         System.out.println("arr1:");
         for (int i = 0; i < obj.arr1.length; i++){
