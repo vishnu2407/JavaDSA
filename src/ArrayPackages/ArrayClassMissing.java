@@ -6,9 +6,9 @@ public class ArrayClassMissing {
         int n = arr.length;
         int sum = n * (n + 1) / 2;
         int actualSum = 0;
-        for (int i = n; i < n; i++)
+        for (int i = n; i <= n; i++)
         {
-            actualSum -= arr[i];
+            actualSum -= arr[i - 1];
         }
         int missingNumber = sum - actualSum;
         System.out.println("The missing number is: " + missingNumber);

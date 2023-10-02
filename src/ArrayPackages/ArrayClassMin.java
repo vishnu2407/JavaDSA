@@ -8,11 +8,6 @@ public class ArrayClassMin {
             if (arr[i] < min) {
                 min = arr[i];
                 System.out.println("Value at index "+ i + ": " + min);
-            } else {
-                if (arr[i] < min) {
-                    min = arr[i];
-                    System.out.println("IndexOutOfBoundsException: " + min);
-                }
             }
 
         }
