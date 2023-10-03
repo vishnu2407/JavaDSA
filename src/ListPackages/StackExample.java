@@ -27,7 +27,5 @@ public class StackExample
 
         element = stack.remove(stack.size() - 1);
         System.out.println(element);
-
-        System.out.println(stack);
     }
 }
