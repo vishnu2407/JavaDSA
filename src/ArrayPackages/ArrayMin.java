@@ -1,6 +1,6 @@
 package ArrayPackages;
 
-public class ArrayClassMin {
+public class ArrayMin {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         int min = arr[4];

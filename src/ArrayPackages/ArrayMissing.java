@@ -1,6 +1,6 @@
 package ArrayPackages;
 
-public class ArrayClassMissing {
+public class ArrayMissing {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         int n = arr.length;
