@@ -5,6 +5,13 @@ public class Hello {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         System.out.println("Hello World!!!");
+        System.out.println(1+ 1 + 1 + 1 + 1 == 5);
+
+        int a = 10, b = 20;
+
+        int c = a / b;
+
+        System.out. println( (a >= 5) && (b <= 10) && (a/c >= 5));
 
         // Press Shift+F10 or click the green arrow button in the gutter to run the code.
 //        for (int i = 1; i <= 5; i++)
@@ -12,5 +19,11 @@ public class Hello {
 //            // for you, but you can always add more by pressing Ctrl+F8.
 //            System.out.println("i = " + i);
 //        }
-    }
+
+        
+
+
+
+
+}
 }
