@@ -1,24 +1,29 @@
 package ArrayPackages;
 
+import java.util.Scanner;
+
 public class ArrayMax
 {
     public static void main(String[] args)
     {
-        int[] arr = {1, 2, 3, 4, 5};
-        int max = arr[4];
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+
+        for (int i = 0; i < arr.length; i++){
+            arr[i] = sc.nextInt();
+        }
+        //Main logic
+        int max = Integer.MIN_VALUE;
+
         for (int i = 0; i < arr.length; i++)
         {
             if (arr[i] > max)
             {
                 max = arr[i];
-                System.out.println("Value at index "+ i + ": " + max);
-            }
-            else
-            {
-                System.out.println("Value at index "+ i + ": " + max);
             }
         }
-
+        System.out.println(max);
     }
 }
-
