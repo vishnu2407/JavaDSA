@@ -21,7 +21,7 @@ public class ArrayMax
         {
             if (arr[i] > max)
             {
-                max = arr[i];
+                max = arr[i]; 
             }
         }
         System.out.println(max);

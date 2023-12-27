@@ -20,9 +20,9 @@ public class Arrayof2D {
                 System.out.printf(arr[i][j] + " ");
             }
             //row count
-            System.out.println(arr[0].length);
-            //column count
             System.out.println(arr.length);
+            //column count
+            System.out.println(arr[0].length);
         }
     }
 }
