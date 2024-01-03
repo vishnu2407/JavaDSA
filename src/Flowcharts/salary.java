@@ -7,7 +7,7 @@ public class salary {
 
         //System.out.println(salary);
         //Bonus is added to the actual salary
-        if (salary >= 10000) {
+        if (salary >=    10000) {
             salary = salary + 2000;
             System.out.println(salary +" : "+ "2000 Bonus is added to the actual salary");
         } else {
