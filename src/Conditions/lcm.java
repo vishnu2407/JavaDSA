@@ -1,6 +1,8 @@
+package Conditions;
+
 import java.util.Scanner;
 
-public class LCM {
+public class lcm {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

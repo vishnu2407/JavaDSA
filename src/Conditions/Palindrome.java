@@ -1,8 +1,10 @@
+package Conditions;
+
 public class Palindrome {
     public static void main(String[] args) {
 
         // Your code for the main method goes here, if needed
-        int number = 110;
+        int number = 121;
         boolean isPalindrome = true;
         if (number < 0) {
             isPalindrome = false;
