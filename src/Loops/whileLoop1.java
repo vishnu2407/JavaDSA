@@ -14,7 +14,7 @@ public class whileLoop1 {
         int i = 0;
         while (i <= 10) {
             System.out.print(i + " ");
-            i += 1; // i = i + 2.getRuntime().gc();
+            i += 2; // i = i + 1;
             i++;
         }
     }
