@@ -27,8 +27,7 @@ public class calculatorProgram {
                     if (num2 != 0) {
                         ans = num1 / num2;
                     }
-                }
-                else if (ch == '%') {
+                } else if (ch == '%') {
                     ans = num1 % num2;
                 }
             }
