@@ -5,9 +5,7 @@ public class Shuffle {
         int[] arr = {2, 5, 4, 1, 3, 6, 7, 8};
         int[] ans = new int[arr.length];
 
-        for (int i = 0; i < arr.length; i++) {
-            ans[i] = arr[i];
-        }
+        System.arraycopy(arr, 0, ans, 0, arr.length);
         for (int i = 0; i < arr.length; i++) {
             int index = (int) (Math.random() * arr.length);
             ans[i] = arr[index];
