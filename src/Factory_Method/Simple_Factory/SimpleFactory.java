@@ -10,4 +10,3 @@ public class SimpleFactory {
         return null;
     }
 }
-
