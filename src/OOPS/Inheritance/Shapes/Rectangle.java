@@ -24,11 +24,5 @@ public class Rectangle extends Shape {
         return "Rectangle [length=" + length + ", breadth=" + breadth + "]";
     }
 
-    public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(10, 20);
-        System.out.println("Area of Rectangle: " + rectangle.Area());
-        System.out.println("Perimeter of Rectangle: " + rectangle.Perimeter());
-        System.out.println(rectangle);
-    }
 
 }

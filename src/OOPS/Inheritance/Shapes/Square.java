@@ -23,10 +23,4 @@ public class Square extends Shape {
         return "Square [side=" + side + "]";
     }
 
-    public static void main(String[] args) {
-        Square square = new Square(10);
-        System.out.println("Area of Square: " + square.Area());
-        System.out.println("Perimeter of Square: " + square.Perimeter());
-        System.out.println(square);
-    }
 }
