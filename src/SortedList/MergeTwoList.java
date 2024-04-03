@@ -1,22 +1,23 @@
 package SortedList;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MergeTwoList {
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        List<Integer> l1 = new ArrayList<>();
-        List<Integer> l2 = new ArrayList<>();
-        l1.add(1);
-        l1.add(2);
-        l1.add(3);
-        l2.add(4);
-        l2.add(5);
-        l2.add(6);
-        list.addAll(l1);
-        list.addAll(l2);
-        System.out.println(list);
+        int[] l1 = new int[]{1, 2, 3};
+        int[] l2 = new int[]{4, 5, 6};
+
+        // Create a new array to store the merged elements
+        int[] merged = new int[l1.length + l2.length];
+
+        // Copy elements from l1 to merged
+        System.arraycopy(l1, 0, merged, 0, l1.length);
+
+        // Copy elements from l2 to merged
+        System.arraycopy(l2, 0, merged, l1.length, l2.length);
+
+        // Print the merged array
+        for (int num : merged) {
+            System.out.print(num + " ");
+        }
     }
 }
