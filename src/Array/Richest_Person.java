@@ -2,7 +2,7 @@ package Array;
 
 public class Richest_Person {
     public static void main(String[] args) {
-        int[][] accounts={{1,2,3, 4},{3,2,1,5},{3,2,1,6}};
+        int[][] accounts={{1,2,3,4},{3,2,1,5},{3,2,1,6}};
         System.out.println(maximumWealth(accounts));
     }
 
