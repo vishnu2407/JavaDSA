@@ -1,4 +1,6 @@
-package OOPS.Inheritance.Shapes;
+package OOPS.Inheritance.Shapes.TwoD;
+
+import OOPS.Inheritance.Shapes.Shape;
 
 public class Rectangle extends Shape {
     double length;

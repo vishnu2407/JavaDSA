@@ -1,4 +1,4 @@
-package OOPS.Inheritance.Shapes;
+package OOPS.Inheritance.Shapes.TwoD;
 
 public class Circle {
 
