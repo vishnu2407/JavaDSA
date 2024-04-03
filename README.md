@@ -1,4 +1,4 @@
-Arrays
+Arrays:
 Introduction to Arrays
 ArrayList In Java
 Printing Patterns
