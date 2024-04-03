@@ -46,25 +46,30 @@ public class Employee {
     }
 
     public static void main(String[] args) {
+        //print the employeeSerialNumber
+        System.out.println("Employee1:");
         // Create an object of Employee class
         Employee employee1 = new Employee("Vishnu", 101, 50000.0);
-
         // Call the displayInfo() method
         employee1.displayInfo();
 
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+        System.out.println("Employee2:");
         // Create another object of Employee class
         Employee employee2 = new Employee("Vamshi", 102, 60000.0);
-
         // Call the displayInfo() method
         employee2.displayInfo();
 
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+        System.out.println("Employee3:");
         // Create another object of Employee class
         Employee employee3 = new Employee("Subhash", 103, 70000.0);
-
         // Call the displayInfo() method
         employee3.displayInfo();
 
-        // Print a blank line
-        System.out.println();
     }
 }
