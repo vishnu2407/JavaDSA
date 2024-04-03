@@ -20,7 +20,7 @@ public class Cuboid {
     }
 
     public String toString() {
-        return "Area of Cuboid: " + area() + "\nVolume of Cuboid： " + volume();
+        return "Cuboid: " + Area() + " " + Volume();
     }
 
     public String Area() {

@@ -25,4 +25,8 @@ public class Trapezoid {
     public String Perimeter() {
         return "Perimeter of Trapezoid: " + perimeter();
     }
+
+    public String toString() {
+        return "Trapezoid: " + base1 + " " + base2 + " " + height + " " + side1 + " " + side2;
+    }
 }

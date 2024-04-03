@@ -19,4 +19,8 @@ public class Parabola {
     public String Perimeter() {
         return "Perimeter of Parabola: " + perimeter();
     }
+
+    public String toString() {
+        return "Parabola: " + Area() + " " + Perimeter() + " " + height + " " + vertex;
+    }
 }

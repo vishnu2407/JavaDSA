@@ -24,4 +24,8 @@ public class Ellipse {
     public String Perimeter() {
         return "Perimeter of Ellipse: " + perimeter();
     }
+
+    public String toString() {
+        return "Ellipse: " + Area() + " " + Perimeter();
+    }
 }

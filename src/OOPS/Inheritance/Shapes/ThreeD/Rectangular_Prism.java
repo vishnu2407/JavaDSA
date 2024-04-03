@@ -19,7 +19,7 @@ public class Rectangular_Prism {
     }
 
     public String toString() {
-        return "Area: " + area + "\nVolume: " + volume;
+        return "Rectangular_Prism: " + Area() + " " + Volume();
     }
 
 }

@@ -24,4 +24,7 @@ public class Oval {
     public String Perimeter() {
         return "Perimeter of Oval: " + perimeter();
     }
+    public String toString() {
+        return "Oval: " + Area() + " " + Perimeter();
+    }
 }

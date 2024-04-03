@@ -22,4 +22,8 @@ public class Half_Circle {
     public String Circumference() {
         return String.format("%.2f", circumference());
     }
+
+    public String toString() {
+        return "Half_Circle: " + Area() + " " + Circumference();
+    }
 }

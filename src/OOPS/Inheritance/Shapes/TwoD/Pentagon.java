@@ -23,4 +23,8 @@ public class Pentagon {
     public String Perimeter() {
         return "Perimeter of Pentagon: " + perimeter();
     }
+
+    public String toString() {
+        return "Pentagon: " + Area() + " " + Perimeter();
+    }
 }
