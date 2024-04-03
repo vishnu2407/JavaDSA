@@ -13,7 +13,7 @@ public class Sphere {
     }
 
     public double Volume() {
-        return (4 / 3) * Math.PI * radius * radius * radius;
+        return ((double) 4 / 3) * Math.PI * radius * radius * radius;
     }
 
     public String toString() {
