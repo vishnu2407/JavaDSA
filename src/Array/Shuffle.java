@@ -2,7 +2,7 @@ package Array;
 
 public class Shuffle {
     public static void main(String[] args) {
-        int[] arr = {2, 5, 4, 1, 3, 6, 7, 8};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] ans = new int[arr.length];
 
         System.arraycopy(arr, 0, ans, 0, arr.length);
