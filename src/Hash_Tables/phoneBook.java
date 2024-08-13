@@ -10,7 +10,6 @@ class phoneBook {
         // Reading the number of entries in the phone book
         int n = scanner.nextInt();
         scanner.nextLine(); // Consume newline
-
         // Populating the phone book
         for (int i = 0; i < n; i++) {
             String name = scanner.next();
@@ -18,7 +17,6 @@ class phoneBook {
             phoneBook.put(name, phone);
             scanner.nextLine(); // Consume newline
         }
-
         // Querying the phone book using the provided array
         String[] arr1 = {"Vishnu", "Vamshi", "Subhash"};
         for (String s : arr1) {
@@ -28,7 +26,6 @@ class phoneBook {
                 System.out.println("Not found");
             }
         }
-
         scanner.close();
     }
 }
