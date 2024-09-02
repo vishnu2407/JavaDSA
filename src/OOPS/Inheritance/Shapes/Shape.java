@@ -15,7 +15,7 @@ public abstract class Shape {
         System.out.println("Perimeter of Square: " + square.Perimeter());
         System.out.println(square);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
 
         // Rectangle Rectangle = new Rectangle(10, 20);
         Rectangle rectangle = new Rectangle(10, 20);
@@ -24,7 +24,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Rectangle: " + rectangle.Perimeter());
         System.out.println(rectangle);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Circle circle = new Circle(10);
         Circle circle = new Circle(10);
@@ -33,7 +34,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Circle: " + circle.Perimeter());
         System.out.println(circle);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Parallelogram parallelogram = new Parallelogram(10, 20);
         Parallelogram parallelogram = new Parallelogram(10, 20);
@@ -42,7 +44,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Parallelogram: " + parallelogram.Perimeter());
         System.out.println(parallelogram);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Triangle triangle = new Triangle(10, 20, 30);
         Triangle triangle = new Triangle(10, 20);
@@ -51,7 +54,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Triangle: " + triangle.Perimeter());
         System.out.println(triangle);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         //Pentagon pentagon = new Pentagon(10, 20, 30, 40, 50);
         Pentagon pentagon = new Pentagon(10);
@@ -60,7 +64,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Pentagon: " + pentagon.Perimeter());
         System.out.println(pentagon);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Hexagon = new Hexagon(10, 20, 30, 40, 50, 60);
         Hexagon hexagon = new Hexagon(10);
@@ -69,7 +74,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Hexagon: " + hexagon.Perimeter());
         System.out.println(hexagon);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         //Half_Circle half_circle = new Half_Circle(10);
         Half_Circle half_circle = new Half_Circle(10);
@@ -78,7 +84,7 @@ public abstract class Shape {
         System.out.println("Perimeter of Half_Circle: " + half_circle.circumference());
         System.out.println(half_circle);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
 
         //Oval oval = new Oval(10, 20);
         Oval oval = new Oval(10, 20);
@@ -87,7 +93,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Oval: " + oval.Perimeter());
         System.out.println(oval);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Rhombus = new Rhombus(10, 20);
         Rhombus rhombus = new Rhombus(10);
@@ -96,7 +103,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Rhombus: " + rhombus.Perimeter());
         System.out.println(rhombus);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Trapezoid trapezoid = new Trapezoid(10, 20, 30, 40);
         Trapezoid trapezoid = new Trapezoid(10, 20, 30, 40);
@@ -105,7 +113,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Trapezoid: " + trapezoid.Perimeter());
         System.out.println(trapezoid);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Parabola parabola = new Parabola(10, 20);
         Parabola parabola = new Parabola(10, 20);
@@ -114,7 +123,8 @@ public abstract class Shape {
         System.out.println("Perimeter of Parabola: " + parabola.Perimeter());
         System.out.println(parabola);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Ellipse ellipse = new Ellipse(10, 20);
         Ellipse ellipse = new Ellipse(10, 20);
@@ -123,7 +133,7 @@ public abstract class Shape {
         System.out.println("Perimeter of Ellipse: " + ellipse.Perimeter());
         System.out.println(ellipse);
 
-        System.out.println("**********************************************************************************************");
+        System.out.println("_________________________________________________________________________________________");
 
         System.out.println("Output of Three Dimensional Shapes: ");
 
@@ -134,7 +144,8 @@ public abstract class Shape {
         System.out.println("Volume of Cylinder: " + cylinder.Volume());
         System.out.println(cylinder);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         //Sphere sphere = new Sphere(10);
         Sphere sphere = new Sphere(10);
@@ -143,7 +154,8 @@ public abstract class Shape {
         System.out.println("Volume of Sphere: " + sphere.Volume());
         System.out.println(sphere);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Cube cube = new Cube();
         Cube cube = new Cube(10);
@@ -152,7 +164,8 @@ public abstract class Shape {
         System.out.println("Volume of Cube: " + cube.Volume());
         System.out.println(cube);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Rectangular_Prism rectangular_prism = new Rectangular_Prism(10, 20, 30);
         Rectangular_Prism rectangular_prism = new Rectangular_Prism(10, 20);
@@ -161,7 +174,8 @@ public abstract class Shape {
         System.out.println("Volume of Rectangular_Prism: " + rectangular_prism.Volume());
         System.out.println(rectangular_prism);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Triangular_Prism triangular_prism = new Triangular_Prism(10, 20, 30);
         Triangular_Prism triangular_prism = new Triangular_Prism(10, 20, 30);
@@ -170,7 +184,8 @@ public abstract class Shape {
         System.out.println("Volume of Triangular_Prism: " + triangular_prism.Volume());
         System.out.println(triangular_prism);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Cone cone = new Cone(10, 20, 30);
         Cone cone = new Cone(10, 20);
@@ -179,7 +194,8 @@ public abstract class Shape {
         System.out.println("Volume of Cone: " + cone.Volume());
         System.out.println(cone);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         //Pyramid pyramid = new Pyramid(10, 20, 30);
         Pyramid pyramid = new Pyramid(10, 20, 30);
@@ -188,7 +204,8 @@ public abstract class Shape {
         System.out.println("Volume of Pyramid: " + pyramid.Perimeter());
         System.out.println(pyramid);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Torus = new Torus(10, 20, 30);
         Torus torus = new Torus(10, 20);
@@ -197,7 +214,7 @@ public abstract class Shape {
         System.out.println("Volume of Torus: " + torus.volume());
         System.out.println(torus);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
 
         // Cuboid cuboid = new Cuboid(10, 20, 30);
         Cuboid cuboid = new Cuboid(10, 20, 30);
@@ -206,7 +223,8 @@ public abstract class Shape {
         System.out.println("Volume of Cuboid: " + cuboid.Volume());
         System.out.println(cuboid);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Ellipsoid ellipsoid = new Ellipsoid(10, 20, 30);
         Ellipsoid ellipsoid = new Ellipsoid(10, 20, 30);
@@ -215,7 +233,8 @@ public abstract class Shape {
         System.out.println("Volume of Ellipsoid: " + ellipsoid.Volume());
         System.out.println(ellipsoid);
 
-        System.out.println(" ");
+        System.out.println("*************************************************************************");
+
 
         // Elliptic_Cylinder elliptic_cylinder = new Elliptic_Cylinder(10, 20, 30);
         Elliptic_Cylinder elliptic_cylinder = new Elliptic_Cylinder(10, 20, 30);
