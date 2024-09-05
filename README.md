@@ -134,7 +134,6 @@ Essential Concepts:
 
 ----------------------------------------------------------------------------------------------------------------------
 
-
 **Structured Query Language:** SQL is a programming language that is crucial for managing and querying large datasets in machine learning projects. It enables you to efficiently extract and manipulate data, making it an essential skill for any machine learning engineer.
 
 **Essential Concepts:**
