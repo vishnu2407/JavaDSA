@@ -1,4 +1,4 @@
-Arrays:
+**Arrays**:
 Introduction to Arrays
 ArrayList In Java
 Printing Patterns
@@ -6,7 +6,7 @@ Boyer-Moore Majority Voting Algorithm
 Sub-arrays
 Jagged Arrays
 
-Searching & Sorting:
+**Searching & Sorting:**
 Linear Search
 Binary Search
 Bubble Sort
@@ -17,17 +17,17 @@ Radix Sort
 Cyclic Sort
 Practise Questions
 
-Strings In Depth:
+**Strings In Depth:**
 Intro to Strings
 StringBuilder in Java
 
-Space & Time Complexity Analysis:
+**Space & Time Complexity Analysis:**
 Time Complexity
 Space Complexity
 Recurrence Relations
 Time Space Tradeoff
 
-Recursion:
+**Recursion:**
 Intro to Recursion
 Flow of Recursion & Array
 Recursion & Strings
@@ -35,63 +35,63 @@ Merge Sort
 Quick Sort
 Standard Practise Questions
 
-BackTracking In Java:
+**BackTracking In Java:**
 Introduction to Backtracking
 Sudoku Solver
 N Queens
 N Knight
 Maze Problems
 
-Maths for DSA:
+**Maths for DSA:**
 Introduction to Maths in DSA
 Complete Bitwise Operators
 Number Theory Part-A
 Number Theory Part-B
 Number Theory Part-C
 
-Object-Oriented Programming:
+**Object-Oriented Programming:**
 Introduction
 this Keyword & Constructor
 Properties of OOP
 
-Linked Lists:
+**Linked Lists:**
 Introduction to Data Structures
 Introduction to Linked List
 
-Stacks & Queues:
+**Stacks & Queues:**
 Intro to Stack & Queues
 
-Trees:
+**Trees:**
 Intro to Trees
 
-Binary Tree:
+**Binary Tree:**
 Intro to Binary Tree
 
-Binary Search Tree:
+**Binary Search Tree:**
 Intro to BST
 
-Heaps:
+**Heaps:**
 Introduction to Heaps
 
-Hashmap:
+**Hashmap:**
 Introduction to Hashmap
 
-Dynamic Programming:
+**Dynamic Programming:**
 Introduction to DP
 
-Greedy Algorithms:
+**Greedy Algorithms:**
 Introduction to Greedy Algorithms
 
-Priority Queues:
+**Priority Queues:**
 Introduction to Priority Queues
 
-Graphs:
+**Graphs:**
 Introduction to Graphs
 
-Tries:
+**Tries:**
 Introduction to Tries
 
-Advanced concepts apart from interviews 
+**Advanced concepts apart from interviews:**
 - Fast IO
 - File handling
 - Bitwise + DP
