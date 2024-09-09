@@ -24,8 +24,10 @@ public class SortList {
     }
 
     public static void main(String[] args) {
+
         double now = System.currentTimeMillis();
         System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+
         int[] myList = {1, 9, 5, 2, 1, 8, 6, 6, 3, 4, 10, 7};
         int[] sortedList = sortList(myList);
         System.out.println(Arrays.toString(sortedList)); // Output: [1, 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10]

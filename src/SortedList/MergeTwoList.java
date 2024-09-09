@@ -3,6 +3,10 @@ package SortedList;
 public class MergeTwoList {
 
     public static void main(String[] args) {
+
+        double now = System.currentTimeMillis();
+        System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+
         int[] l1 = new int[]{1, 2, 3};
         int[] l2 = new int[]{4, 5, 6};
 

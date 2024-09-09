@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class SortString {
     public static void main(String[] args) {
 
+        double now = System.currentTimeMillis();
+        System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+
         String[] myList = {"Geya", "Vishnu", "Vamshi","Subhash", "Vikas", "Vivek", "Chari", "Vijay"};
         String[] sortedList = sortList(myList);
         System.out.println(Arrays.toString(sortedList));
