@@ -71,5 +71,50 @@ public class Employee {
         // Call the displayInfo() method
         employee3.displayInfo();
 
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+        System.out.println("Employee4:");
+        // Create another object of Employee class
+        Employee employee4 = new Employee("Vikas", 104, 80000.0);
+        // Call the displayInfo() method
+        employee4.displayInfo();
+
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+        System.out.println("Employee5:");
+        // Create another object of Employee class
+        Employee employee5 = new Employee("Vamshi", 105, 90000.0);
+        // Call the displayInfo() method
+        employee5.displayInfo();
+
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+
+        System.out.println("Employee6:");
+        // Create another object of Employee class
+        Employee employee6 = new Employee("Vivek", 106, 100000.0);
+        // Call the displayInfo() method
+        employee6.displayInfo();
+
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+        System.out.println("Employee7:");
+        // Create another object of Employee class
+        Employee employee7 = new Employee("Vijay", 107, 110000.0);
+        // Call the displayInfo() method
+        employee7.displayInfo();
+
+        System.out.println("*************************************************************");
+
+        //print the employeeSerialNumber
+        System.out.println("Employee8:");
+        // Create another object of Employee class
+        Employee employee8 = new Employee("Geya", 108, 120000.0);
+        // Call the displayInfo() method
+        employee8.displayInfo();
     }
 }

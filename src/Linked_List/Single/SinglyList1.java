@@ -2,7 +2,8 @@ package Linked_List.Single;
 
 import java.util.Arrays;
 
-public class SinglyList1 {
+public class SinglyList1
+{
     private ListNode head;
 
     private static class ListNode {
@@ -14,7 +15,6 @@ public class SinglyList1 {
             this.next = null;
         }
     }
-
     public static void main(String[] args) {
 
         double now = System.currentTimeMillis();
