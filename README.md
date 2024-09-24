@@ -1,620 +1,56 @@
-[//]: # (**Strings In Depth:**)
+# Data Structures and Algorithms
+
+This repository contains the code for various data structures and algorithms in Java. The code is well commented and explained in detail. The repository is divided into different sections, each containing the code for a particular data structure or algorithm. 
+
+The repository has three sections: Arrays, Linked Lists, and Hashmap. Each section contains the code for a particular data structure or algorithm. The code is well commented and explained in detail. The code is also tested and verified to ensure its correctness.
+
+**Data Structures and Algorithms:**
+- Arrays
+- Linked Lists
+- Hashmap
+- Heaps
+- Stack
+- Queues
+- Trees
+- Binary Tree
+- Binary Search Tree
+- AVL Tree
+- Red-Black Tree
+- Trie
+- Graphs
+- Searching & Sorting
+- Recursion
+- Backtracking In Java
+- Maths for DSA
+- Number Theory
+- Object-Oriented Programming
+- Dynamic Programming
+- Greedy Algorithms
+- Divide and Conquer Algorithms
+- Backtracking Algorithms
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+- Minimum Spanning Tree (MST)
+- Prim's Algorithm
+- Kruskal's Algorithm
+- Dijkstra's Algorithm
+- Bellman-Ford Algorithm
+- Floyd-Warshall Algorithm
+- Kadane's Algorithm
+- Longest Common Subsequence (LCS)
+- Longest Increasing Subsequence (LIS)
+- Longest Common Prefix (LCP)
+- Longest Palindromic Substring (LPS)
+- Longest Bitonic Subsequence (LBS)
+- Longest Bitonic Subarray (LBA)
+- Longest Path in a Matrix (LPM)
+- Longest Path in a DAG (LPD)
+- Longest Path in a Tree (LPT)
+- Longest Path in a Binary Tree (LPB)
+- Longest Path in a Tree (LPT)
+- Longest Path in a DAG (LPD)
+- Longest Path in a Matrix (LPM)
 
-[//]: # (- Intro to Strings)
-
-[//]: # (- StringBuilder in Java)
-
-[//]: # (- String Concatenation in Java)
-
-[//]: # (- String Comparisons in Java)
-
-[//]: # (- String Reversing in Java)
-
-[//]: # (- String Splitting in Java)
-
-[//]: # (- String Trimming in Java)
-
-[//]: # (- String to Integer Conversion in Java)
-
-[//]: # (- String to Double Conversion in Java)
-
-[//]: # (- String to Boolean Conversion in Java)
-
-[//]: # (- String to Character Array in Java)
-
-[//]: # (- String to Byte Array in Java)
-
-[//]: # (- String to Short Array in Java)
-
-[//]: # (- String to Integer Array in Java)
-
-[//]: # (- String to Long Array in Java)
-
-[//]: # (- String to Float Array in Java)
-
-[//]: # (- String to Double Array in Java)
-
-[//]: # (- String to Boolean Array in Java)
-
-[//]: # (- String to Object Array in Java)
-
-[//]: # (- String to String Array in Java)
-
-[//]: # (- String to List in Java)
-
-[//]: # (- String to Set in Java)
-
-[//]: # (- String to Map in Java)
-
-[//]: # (- String to Properties in Java)
-
-[//]: # (- String to URL in Java)
-
-[//]: # (- String to URI in Java)
-
-[//]: # (- String to Date in Java)
-
-[//]: # (- String to Calendar in Java)
-
-[//]: # (- String to BigInteger in Java)
-
-[//]: # (- String to BigDecimal in Java)
-
-[//]: # (- String to Enum in Java)
-
-[//]: # (- String to UUID in Java)
-
-[//]: # (- String to InetAddress in Java)
-
-[//]: # (- String to Charset in Java)
-
-[//]: # (- String to Currency in Java)
-
-[//]: # (- String to Locale in Java)
-
-[//]: # (- String to TimeZone in Java)
-
-[//]: # (- String to Calendar in Java)
-
-[//]: # (- String to StringBuilder in Java)
-
-[//]: # (- String to StringBuffer in Java)
-
-[//]: # (- String to RandomAccess in Java)
-
-[//]: # (- String to Comparable in Java)
-
-[//]: # (- String to Comparator in Java)
-
-[//]: # (- String to Pattern in Java)
-
-[//]: # (- String to InetAddress in Java)
-
-[//]: # (- String to Charset in Java)
-
-[//]: # (- String to Currency in Java)
-
-[//]: # (- String to Locale in Java)
-
-[//]: # (- String to TimeZone in Java)
-
-[//]: # (- String to Calendar in Java)
-
-[//]: # (- String to BigInteger in Java)
-
-[//]: # (- String to BigDecimal in Java)
-
-[//]: # (- String to Enum in Java)
-
-[//]: # (- String to UUID in Java)
-
-[//]: # (- String to InetAddress in Java)
-
-[//]: # (- String to Charset in Java)
-
-[//]: # (- String to Currency in Java)
-
-[//]: # (- String to Locale in Java)
-
-[//]: # (- String to TimeZone in Java)
-
-[//]: # (- String to Calendar in Java)
-
-[//]: # (- String to StringBuilder in Java)
-
-[//]: # (- String to StringBuffer in Java)
-
-[//]: # ()
-[//]: # (**String Constructors:**)
-
-[//]: # (- String&#40;&#41;)
-
-[//]: # (- String&#40;byte[] bytes&#41;)
-
-[//]: # (- String&#40;byte[] bytes, int offset, int length&#41;)
-
-[//]: # (- String&#40;byte[] bytes, Charset charset&#41;)
-
-[//]: # (- String&#40;byte[] bytes, int offset, int length, Charset charset&#41;)
-
-[//]: # (- String&#40;char[] value&#41;)
-
-[//]: # (- String&#40;char[] value, int offset, int count&#41;)
-
-[//]: # (- String&#40;String original&#41;)
-
-[//]: # (- String&#40;StringBuffer sb&#41;)
-
-[//]: # (- String&#40;StringBuilder sb&#41;)
-
-[//]: # (- String&#40;byte[] bytes, int offset, int length, String charsetName&#41;)
-
-[//]: # (- String&#40;byte[] bytes, String charsetName&#41;)
-
-[//]: # (- String&#40;byte[] bytes, Charset charset&#41;)
-
-[//]: # (- String&#40;byte[] bytes, int offset, int length, Charset charset&#41;)
-
-[//]: # (- String&#40;char[] value, int offset, int count&#41;)
-
-[//]: # ()
-[//]: # (**String Builder:**)
-
-[//]: # (- StringBuilder&#40;&#41;)
-
-[//]: # (- StringBuilder&#40;int capacity&#41;)
-
-[//]: # (- append&#40;&#41;)
-
-[//]: # (- append&#40;boolean b&#41;)
-
-[//]: # (- append&#40;char c&#41;)
-
-[//]: # (- append&#40;char[] str&#41;)
-
-[//]: # (- append&#40;char[] str, int offset, int len&#41;)
-
-[//]: # (- append&#40;double d&#41;)
-
-[//]: # (- append&#40;float f&#41;)
-
-[//]: # (- append&#40;int i&#41;)
-
-[//]: # (- append&#40;long lng&#41;)
-
-[//]: # (- append&#40;Object obj&#41;)
-
-[//]: # (- append&#40;String str&#41;)
-
-[//]: # (- append&#40;StringBuffer sb&#41;)
-
-[//]: # (- append&#40;StringBuilder sb&#41;)
-
-[//]: # (- appendCodePoint&#40;int codePoint&#41;)
-
-[//]: # (- delete&#40;int start, int end&#41;)
-
-[//]: # (- deleteCharAt&#40;int index&#41;)
-
-[//]: # (- insert&#40;int index, boolean b&#41;)
-
-[//]: # (- insert&#40;int index, char c&#41;)
-
-[//]: # (- insert&#40;int index, char[] str&#41;)
-
-[//]: # (- insert&#40;int index, char[] str, int offset, int len&#41;)
-
-[//]: # (- insert&#40;int index, double d&#41;)
-
-[//]: # (- insert&#40;int index, float f&#41;)
-
-[//]: # (- insert&#40;int index, int i&#41;)
-
-[//]: # (- insert&#40;int index, long l&#41;)
-
-[//]: # (- insert&#40;int index, Object obj&#41;)
-
-[//]: # (- insert&#40;int index, String str&#41;)
-
-[//]: # (- insert&#40;int index, StringBuffer sb&#41;)
-
-[//]: # (- insert&#40;int index, StringBuilder sb&#41;)
-
-[//]: # (- replace&#40;int start, int end, String str&#41;)
-
-[//]: # (- reverse&#40;&#41;)
-
-[//]: # (- setCharAt&#40;int index, char ch&#41;)
-
-[//]: # (- setLength&#40;int newLength&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- capacity&#40;&#41;)
-
-[//]: # (- length&#40;&#41;)
-
-[//]: # (- charAt&#40;int index&#41;)
-
-[//]: # (- codePointAt&#40;int index&#41;)
-
-[//]: # (- codePointBefore&#40;int index&#41;)
-
-[//]: # (- codePointCount&#40;int beginIndex, int endIndex&#41;)
-
-[//]: # (- offsetByCodePoints&#40;int index, int codePointOffset&#41;)
-
-[//]: # (- substring&#40;int start&#41;)
-
-[//]: # (- substring&#40;int start, int end&#41;)
-
-[//]: # (- subSequence&#40;int start, int end&#41;)
-
-[//]: # (- trimToSize&#40;&#41;)
-
-[//]: # (- ensureCapacity&#40;int minimumCapacity&#41;)
-
-[//]: # (- indexOf&#40;String str&#41;)
-
-[//]: # (- indexOf&#40;String str, int fromIndex&#41;)
-
-[//]: # (- lastIndexOf&#40;String str&#41;)
-
-[//]: # (- lastIndexOf&#40;String str, int fromIndex&#41;)
-
-[//]: # (- equals&#40;Object anObject&#41;)
-
-[//]: # (- hashCode&#40;&#41;)
-
-[//]: # (- compareTo&#40;String anotherString&#41;)
-
-[//]: # (- compareToIgnoreCase&#40;String str&#41;)
-
-[//]: # (- isEmpty&#40;&#41;)
-
-[//]: # (- isBlank&#40;&#41;)
-
-[//]: # (- isDigit&#40;&#41;)
-
-[//]: # (- isLetter&#40;&#41;)
-
-[//]: # (- isLetterOrDigit&#40;&#41;)
-
-[//]: # (- isLowerCase&#40;&#41;)
-
-[//]: # (- isUpperCase&#40;&#41;)
-
-[//]: # (- isWhitespace&#40;&#41;)
-
-[//]: # (- matches&#40;String regex&#41;)
-
-[//]: # (- replaceAll&#40;String regex, String replacement&#41;)
-
-[//]: # (- replaceFirst&#40;String regex, String replacement&#41;)
-
-[//]: # (- split&#40;String regex&#41;)
-
-[//]: # (- split&#40;String regex, int limit&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # (- valueOf&#40;boolean b&#41;)
-
-[//]: # (- valueOf&#40;char c&#41;)
-
-[//]: # (- valueOf&#40;char[] data&#41;)
-
-[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- valueOf&#40;double d&#41;)
-
-[//]: # (- valueOf&#40;float f&#41;)
-
-[//]: # (- valueOf&#40;int i&#41;)
-
-[//]: # (- valueOf&#40;long l&#41;)
-
-[//]: # (- valueOf&#40;Object obj&#41;)
-
-[//]: # (- valueOf&#40;String s&#41;)
-
-[//]: # (- valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # (- valueOf&#40;boolean b&#41;)
-
-[//]: # (- valueOf&#40;char c&#41;)
-
-[//]: # (- valueOf&#40;char[] data&#41;)
-
-[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- valueOf&#40;double d&#41;)
-
-[//]: # (- valueOf&#40;float f&#41;)
-
-[//]: # (- valueOf&#40;int i&#41;)
-
-[//]: # (- valueOf&#40;long l&#41;)
-
-[//]: # (- valueOf&#40;Object obj&#41;)
-
-[//]: # (- valueOf&#40;String s&#41;)
-
-[//]: # (- valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # (- valueOf&#40;boolean b&#41;)
-
-[//]: # (- valueOf&#40;char c&#41;)
-
-[//]: # (- valueOf&#40;char[] data&#41;)
-
-[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- valueOf&#40;double d&#41;)
-
-[//]: # (- valueOf&#40;float f&#41;)
-
-[//]: # (- valueOf&#40;int i&#41;)
-
-[//]: # (- valueOf&#40;long l&#41;)
-
-[//]: # (- valueOf&#40;Object obj&#41;)
-
-[//]: # (- valueOf&#40;String s&#41;)
-
-[//]: # (- valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # (- valueOf&#40;boolean b&#41;)
-
-[//]: # (- valueOf&#40;char c&#41;)
-
-[//]: # (- valueOf&#40;char[] data&#41;)
-
-[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- valueOf&#40;double d&#41;)
-
-[//]: # (- valueOf&#40;float f&#41;)
-
-[//]: # (- valueOf&#40;int i&#41;)
-
-[//]: # (- valueOf&#40;long l&#41;)
-
-[//]: # (- valueOf&#40;Object obj&#41;)
-
-[//]: # (- valueOf&#40;String s&#41;)
-
-[//]: # (- valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # (- valueOf&#40;boolean b&#41;)
-
-[//]: # (- valueOf&#40;char c&#41;)
-
-[//]: # (- valueOf&#40;char[] data&#41;)
-
-[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- valueOf&#40;double d&#41;)
-
-[//]: # (- valueOf&#40;float f&#41;)
-
-[//]: # (- valueOf&#40;int i&#41;)
-
-[//]: # (- valueOf&#40;long l&#41;)
-
-[//]: # (- valueOf&#40;Object obj&#41;)
-
-[//]: # (- valueOf&#40;String s&#41;)
-
-[//]: # (- valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # (- valueOf&#40;boolean b&#41;)
-
-[//]: # (- valueOf&#40;char c&#41;)
-
-[//]: # (- valueOf&#40;char[] data&#41;)
-
-[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- valueOf&#40;double d&#41;)
-
-[//]: # (- valueOf&#40;float f&#41;)
-
-[//]: # (- valueOf&#40;int i&#41;)
-
-[//]: # (- valueOf&#40;long l&#41;)
-
-[//]: # (- valueOf&#40;Object obj&#41;)
-
-[//]: # (- valueOf&#40;String s&#41;)
-
-[//]: # (- valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- toCharArray&#40;&#41;)
-
-[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- toString&#40;&#41;)
-
-[//]: # (- toLowerCase&#40;&#41;)
-
-[//]: # (- toUpperCase&#40;&#41;)
-
-[//]: # (- trim&#40;&#41;)
-
-[//]: # ()
-[//]: # ()
-[//]: # (**String Methods:**)
-
-[//]: # (- String.charAt&#40;&#41;)
-
-[//]: # (- String.equals&#40;&#41;)
-
-[//]: # (- String.equalsIgnoreCase&#40;&#41;)
-
-[//]: # (- String.compareTo&#40;&#41;)
-
-[//]: # (- String.compareToIgnoreCase&#40;&#41;)
-
-[//]: # (- String.concat&#40;&#41;)
-
-[//]: # (- String.contains&#40;&#41;)
-
-[//]: # (- String.endsWith&#40;&#41;)
-
-[//]: # (- String.equalsIgnoreCase&#40;&#41;)
-
-[//]: # (- String.getBytes&#40;&#41;)
-
-[//]: # (- String.getBytes&#40;String charsetName&#41;)
-
-[//]: # (- String.getBytes&#40;Charset charset&#41;)
-
-[//]: # (- String.getChars&#40;&#41;)
-
-[//]: # (- String.indexOf&#40;&#41;)
-
-[//]: # (- String.lastIndexOf&#40;&#41;)
-
-[//]: # (- String.length&#40;&#41;)
-
-[//]: # (- String.matches&#40;&#41;)
-
-[//]: # (- String.replace&#40;&#41;)
-
-[//]: # (- String.replaceAll&#40;&#41;)
-
-[//]: # (- String.replaceFirst&#40;&#41;)
-
-[//]: # (- String.split&#40;&#41;)
-
-[//]: # (- String.startsWith&#40;&#41;)
-
-[//]: # (- String.substring&#40;&#41;)
-
-[//]: # (- String.toLowerCase&#40;&#41;)
-
-[//]: # (- String.toUpperCase&#40;&#41;)
-
-[//]: # (- String.trim&#40;&#41;)
-
-[//]: # (- String.valueOf&#40;&#41;)
-
-[//]: # (- String.valueOf&#40;boolean b&#41;)
-
-[//]: # (- String.valueOf&#40;char c&#41;)
-
-[//]: # (- String.valueOf&#40;char[] data&#41;)
-
-[//]: # (- String.valueOf&#40;char[] data, int offset, int count&#41;)
-
-[//]: # (- String.valueOf&#40;double d&#41;)
-
-[//]: # (- String.valueOf&#40;float f&#41;)
-
-[//]: # (- String.valueOf&#40;int i&#41;)
-
-[//]: # (- String.valueOf&#40;long l&#41;)
-
-[//]: # (- String.valueOf&#40;Object obj&#41;)
-
-[//]: # (- String.valueOf&#40;String s&#41;)
-
-[//]: # (- String.valueOf&#40;StringBuffer sb&#41;)
-
-[//]: # (- String.valueOf&#40;StringBuilder sb&#41;)
-
-[//]: # (- String.toCharArray&#40;&#41;)
-
-[//]: # (- String.toCharArray&#40;int srcBegin, int srcEnd&#41;)
-
-[//]: # (- String.toString&#40;&#41;)
-
-[//]: # (- String.toUpperCase&#40;&#41;)
-
-[//]: # (- String.toLowerCase&#40;&#41;)
-
-[//]: # (- String.toCharArray&#40;&#41;)
-
-[//]: # ()
 
 **Arrays**:
 - Introduction to Arrays
@@ -865,13 +301,131 @@ Sudoku Solver
   - Greedy Algorithms are often used in problems that have a large number of subproblems.
   - Greedy Algorithms are often used in problems that have a large number of choices.
 
-**Priority Queues:**
-- Introduction to Priority Queues
-  - Priority Queues are a type of data structure that stores a collection of elements in a specific order.
-  - Priority Queues are often used in scheduling algorithms, where the goal is to find the task with the highest priority.
-  - Priority Queues are often used in graph algorithms, where the goal is to find the shortest path or the lowest cost.
-  - Priority Queues are often used in sorting algorithms, where the goal is to arrange the elements in ascending or descending order.
-  - Priority Queues are often used in algorithms that need to process elements in a specific order.
+**Divide and Conquer Algorithms:**
+- Introduction to Divide and Conquer Algorithms
+  - Divide and Conquer Algorithms are a type of algorithmic paradigm that breaks down a problem into smaller subproblems and solves them independently.
+  - Divide and Conquer Algorithms are often used in optimization problems, where the goal is to find the best solution among a set of possible solutions.
+  - Divide and Conquer Algorithms are often used in problems that can be broken down into subproblems and solved independently.
+  - Divide and Conquer Algorithms are often used in problems that have overlapping subproblems.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of subproblems.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of possible solutions.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of states.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of constraints.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of variables.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of input values.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of output values.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of intermediate values.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of subproblems.
+  - Divide and Conquer Algorithms are often used in problems that have a large number of choices.
+
+**Backtracking Algorithms:**
+- Introduction to Backtracking Algorithms
+  - Backtracking Algorithms are a type of algorithmic paradigm that tries to find a solution by exploring all possible paths and then backtracks to the previous state if it determines that the current state is not a solution.
+  - Backtracking Algorithms are often used in optimization problems, where the goal is to find the best solution among a set of possible solutions.
+  - Backtracking Algorithms are often used in problems that can be broken down into subproblems and solved independently.
+  - Backtracking Algorithms are often used in problems that have overlapping subproblems.
+  - Backtracking Algorithms are often used in problems that have a large number of subproblems.
+  - Backtracking Algorithms are often used in problems that have a large number of possible solutions.
+  - Backtracking Algorithms are often used in problems that have a large number of states.
+  - Backtracking Algorithms are often used in problems that have a large number of constraints.
+  - Backtracking Algorithms are often used in problems that have a large number of variables.
+  - Backtracking Algorithms are often used in problems that have a large number of input values.
+  - Backtracking Algorithms are often used in problems that have a large number of output values.
+  - Backtracking Algorithms are often used in problems that have a large number of intermediate values.
+  - Backtracking Algorithms are often used in problems that have a large number of subproblems.
+  - Backtracking Algorithms are often used in problems that have a large number of choices.
+
+**Depth-First Search (DFS):**
+- Introduction to Depth-First Search (DFS)
+  - Depth-First Search (DFS) is a type of graph traversal algorithm that visits all the vertices in a graph by traversing as far as possible along each branch before backtracking.
+  - Depth-First Search (DFS) is often used in problems that require traversing a graph.
+  - Depth-First Search (DFS) is often used in problems that have a large number of vertices and edges.
+  - Depth-First Search (DFS) is often used in problems that have a large number of possible solutions.
+  - Depth-First Search (DFS) is often used in problems that have a large number of states.
+  - Depth-First Search (DFS) is often used in problems that have a large number of constraints.
+  - Depth-First Search (DFS) is often used in problems that have a large number of variables.
+  - Depth-First Search (DFS) is often used in problems that have a large number of input values.
+  - Depth-First Search (DFS) is often used in problems that have a large number of output values.
+  - Depth-First Search (DFS) is often used in problems that have a large number of intermediate values.
+  - Depth-First Search (DFS) is often used in problems that have a large number of subproblems.
+  - Depth-First Search (DFS) is often used in problems that have a large number of choices.
+
+**Breadth-First Search (BFS):**
+- Introduction to Breadth-First Search (BFS)
+  - Breadth-First Search (BFS) is a type of graph traversal algorithm that visits all the vertices in a graph by traversing as far as possible along each branch before backtracking.
+  - Breadth-First Search (BFS) is often used in problems that require traversing a graph.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of vertices and edges.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of possible solutions.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of states.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of constraints.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of variables.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of input values.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of output values.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of intermediate values.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of subproblems.
+  - Breadth-First Search (BFS) is often used in problems that have a large number of choices.
+
+**Topological Sort:**
+- Introduction to Topological Sort
+  - Topological Sort is a type of algorithmic paradigm that sorts a DAG (Directed Acyclic Graph) in such a way that all the vertices are in a linear order.
+  - Topological Sort is often used in problems that require sorting a DAG.
+  - Topological Sort is often used in problems that have a large number of vertices and edges.
+  - Topological Sort is often used in problems that have a large number of possible solutions.
+  - Topological Sort is often used in problems that have a large number of states.
+  - Topological Sort is often used in problems that have a large number of constraints.
+  - Topological Sort is often used in problems that have a large number of variables.
+  - Topological Sort is often used in problems that have a large number of input values.
+  - Topological Sort is often used in problems that have a large number of output values.
+  - Topological Sort is often used in problems that have a large number of intermediate values.
+  - Topological Sort is often used in problems that have a large number of subproblems.
+  - Topological Sort is often used in problems that have a large number of choices.
+
+**Minimum Spanning Tree (MST):**
+- Introduction to Minimum Spanning Tree (MST)
+  - Minimum Spanning Tree (MST) is a type of algorithmic paradigm that finds a subset of edges that connects all the vertices in a graph with the smallest possible total weight.
+  - Minimum Spanning Tree (MST) is often used in problems that require finding a subset of edges that connects all the vertices in a graph with the smallest possible total weight.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of vertices and edges.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of possible solutions.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of states.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of constraints.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of variables.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of input values.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of output values.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of intermediate values.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of subproblems.
+  - Minimum Spanning Tree (MST) is often used in problems that have a large number of choices.
+
+**Kruskal's Algorithm:**
+- Introduction to Kruskal's Algorithm
+  - Kruskal's Algorithm is a type of algorithmic paradigm that finds a minimum spanning tree (MST) of a connected, undirected graph.
+  - Kruskal's Algorithm is often used in problems that require finding a MST of a connected, undirected graph.
+  - Kruskal's Algorithm is often used in problems that have a large number of vertices and edges.
+  - Kruskal's Algorithm is often used in problems that have a large number of possible solutions.
+  - Kruskal's Algorithm is often used in problems that have a large number of states.
+  - Kruskal's Algorithm is often used in problems that have a large number of constraints.
+  - Kruskal's Algorithm is often used in problems that have a large number of variables.
+  - Kruskal's Algorithm is often used in problems that have a large number of input values.
+  - Kruskal's Algorithm is often used in problems that have a large number of output values.
+  - Kruskal's Algorithm is often used in problems that have a large number of intermediate values.
+  - Kruskal's Algorithm is often used in problems that have a large number of subproblems.
+  - Kruskal's Algorithm is often used in problems that have a large number of choices.
+  - Kruskal's Algorithm is often used in problems that have a large number of edges.
+
+  **Prim's Algorithm:**
+- Introduction to Prim's Algorithm
+  - Prim's Algorithm is a type of algorithmic paradigm that finds a minimum spanning tree (MST) of a connected, undirected graph.
+  - Prim's Algorithm is often used in problems that require finding a MST of a connected, undirected graph.
+  - Prim's Algorithm is often used in problems that have a large number of vertices and edges.
+  - Prim's Algorithm is often used in problems that have a large number of possible solutions.
+  - Prim's Algorithm is often used in problems that have a large number of states.
+  - Prim's Algorithm is often used in problems that have a large number of constraints.
+  - Prim's Algorithm is often used in problems that have a large number of variables.
+  - Prim's Algorithm is often used in problems that have a large number of input values.
+  - Prim's Algorithm is often used in problems that have a large number of output values.
+  - Prim's Algorithm is often used in problems that have a large number of intermediate values.
+  - Prim's Algorithm is often used in problems that have a large number of subproblems.
+  - Prim's Algorithm is often used in problems that have a large number of choices.
+  - Prim's Algorithm is often used in problems that have a large number of edges.
 
 **Advanced concepts apart from interviews:**
 - Fast IO
