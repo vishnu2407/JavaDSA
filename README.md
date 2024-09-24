@@ -1,314 +1,620 @@
-**Strings In Depth:**
-- Intro to Strings
-- StringBuilder in Java
-- String Concatenation in Java
-- String Comparisons in Java
-- String Reversing in Java
-- String Splitting in Java
-- String Trimming in Java
-- String to Integer Conversion in Java
-- String to Double Conversion in Java
-- String to Boolean Conversion in Java
-- String to Character Array in Java
-- String to Byte Array in Java
-- String to Short Array in Java
-- String to Integer Array in Java
-- String to Long Array in Java
-- String to Float Array in Java
-- String to Double Array in Java
-- String to Boolean Array in Java
-- String to Object Array in Java
-- String to String Array in Java
-- String to List in Java
-- String to Set in Java
-- String to Map in Java
-- String to Properties in Java
-- String to URL in Java
-- String to URI in Java
-- String to Date in Java
-- String to Calendar in Java
-- String to BigInteger in Java
-- String to BigDecimal in Java
-- String to Enum in Java
-- String to UUID in Java
-- String to InetAddress in Java
-- String to Charset in Java
-- String to Currency in Java
-- String to Locale in Java
-- String to TimeZone in Java
-- String to Calendar in Java
-- String to StringBuilder in Java
-- String to StringBuffer in Java
-- String to RandomAccess in Java
-- String to Comparable in Java
-- String to Comparator in Java
-- String to Pattern in Java
-- String to InetAddress in Java
-- String to Charset in Java
-- String to Currency in Java
-- String to Locale in Java
-- String to TimeZone in Java
-- String to Calendar in Java
-- String to BigInteger in Java
-- String to BigDecimal in Java
-- String to Enum in Java
-- String to UUID in Java
-- String to InetAddress in Java
-- String to Charset in Java
-- String to Currency in Java
-- String to Locale in Java
-- String to TimeZone in Java
-- String to Calendar in Java
-- String to StringBuilder in Java
-- String to StringBuffer in Java
+[//]: # (**Strings In Depth:**)
 
-**String Constructors:**
-- String()
-- String(byte[] bytes)
-- String(byte[] bytes, int offset, int length)
-- String(byte[] bytes, Charset charset)
-- String(byte[] bytes, int offset, int length, Charset charset)
-- String(char[] value)
-- String(char[] value, int offset, int count)
-- String(String original)
-- String(StringBuffer sb)
-- String(StringBuilder sb)
-- String(byte[] bytes, int offset, int length, String charsetName)
-- String(byte[] bytes, String charsetName)
-- String(byte[] bytes, Charset charset)
-- String(byte[] bytes, int offset, int length, Charset charset)
-- String(char[] value, int offset, int count)
+[//]: # (- Intro to Strings)
 
-**String Builder:**
-- StringBuilder()
-- StringBuilder(int capacity)
-- append()
-- append(boolean b)
-- append(char c)
-- append(char[] str)
-- append(char[] str, int offset, int len)
-- append(double d)
-- append(float f)
-- append(int i)
-- append(long lng)
-- append(Object obj)
-- append(String str)
-- append(StringBuffer sb)
-- append(StringBuilder sb)
-- appendCodePoint(int codePoint)
-- delete(int start, int end)
-- deleteCharAt(int index)
-- insert(int index, boolean b)
-- insert(int index, char c)
-- insert(int index, char[] str)
-- insert(int index, char[] str, int offset, int len)
-- insert(int index, double d)
-- insert(int index, float f)
-- insert(int index, int i)
-- insert(int index, long l)
-- insert(int index, Object obj)
-- insert(int index, String str)
-- insert(int index, StringBuffer sb)
-- insert(int index, StringBuilder sb)
-- replace(int start, int end, String str)
-- reverse()
-- setCharAt(int index, char ch)
-- setLength(int newLength)
-- toString()
-- capacity()
-- length()
-- charAt(int index)
-- codePointAt(int index)
-- codePointBefore(int index)
-- codePointCount(int beginIndex, int endIndex)
-- offsetByCodePoints(int index, int codePointOffset)
-- substring(int start)
-- substring(int start, int end)
-- subSequence(int start, int end)
-- trimToSize()
-- ensureCapacity(int minimumCapacity)
-- indexOf(String str)
-- indexOf(String str, int fromIndex)
-- lastIndexOf(String str)
-- lastIndexOf(String str, int fromIndex)
-- equals(Object anObject)
-- hashCode()
-- compareTo(String anotherString)
-- compareToIgnoreCase(String str)
-- isEmpty()
-- isBlank()
-- isDigit()
-- isLetter()
-- isLetterOrDigit()
-- isLowerCase()
-- isUpperCase()
-- isWhitespace()
-- matches(String regex)
-- replaceAll(String regex, String replacement)
-- replaceFirst(String regex, String replacement)
-- split(String regex)
-- split(String regex, int limit)
-- toCharArray()
-- toLowerCase()
-- toUpperCase()
-- trim()
-- valueOf(boolean b)
-- valueOf(char c)
-- valueOf(char[] data)
-- valueOf(char[] data, int offset, int count)
-- valueOf(double d)
-- valueOf(float f)
-- valueOf(int i)
-- valueOf(long l)
-- valueOf(Object obj)
-- valueOf(String s)
-- valueOf(StringBuffer sb)
-- valueOf(StringBuilder sb)
-- toCharArray()
-- toCharArray(int srcBegin, int srcEnd)
-- toString()
-- toLowerCase()
-- toUpperCase()
-- trim()
-- valueOf(boolean b)
-- valueOf(char c)
-- valueOf(char[] data)
-- valueOf(char[] data, int offset, int count)
-- valueOf(double d)
-- valueOf(float f)
-- valueOf(int i)
-- valueOf(long l)
-- valueOf(Object obj)
-- valueOf(String s)
-- valueOf(StringBuffer sb)
-- valueOf(StringBuilder sb)
-- toCharArray()
-- toCharArray(int srcBegin, int srcEnd)
-- toString()
-- toLowerCase()
-- toUpperCase()
-- trim()
-- valueOf(boolean b)
-- valueOf(char c)
-- valueOf(char[] data)
-- valueOf(char[] data, int offset, int count)
-- valueOf(double d)
-- valueOf(float f)
-- valueOf(int i)
-- valueOf(long l)
-- valueOf(Object obj)
-- valueOf(String s)
-- valueOf(StringBuffer sb)
-- valueOf(StringBuilder sb)
-- toCharArray()
-- toCharArray(int srcBegin, int srcEnd)
-- toString()
-- toLowerCase()
-- toUpperCase()
-- trim()
-- valueOf(boolean b)
-- valueOf(char c)
-- valueOf(char[] data)
-- valueOf(char[] data, int offset, int count)
-- valueOf(double d)
-- valueOf(float f)
-- valueOf(int i)
-- valueOf(long l)
-- valueOf(Object obj)
-- valueOf(String s)
-- valueOf(StringBuffer sb)
-- valueOf(StringBuilder sb)
-- toCharArray()
-- toCharArray(int srcBegin, int srcEnd)
-- toString()
-- toLowerCase()
-- toUpperCase()
-- trim()
-- valueOf(boolean b)
-- valueOf(char c)
-- valueOf(char[] data)
-- valueOf(char[] data, int offset, int count)
-- valueOf(double d)
-- valueOf(float f)
-- valueOf(int i)
-- valueOf(long l)
-- valueOf(Object obj)
-- valueOf(String s)
-- valueOf(StringBuffer sb)
-- valueOf(StringBuilder sb)
-- toCharArray()
-- toCharArray(int srcBegin, int srcEnd)
-- toString()
-- toLowerCase()
-- toUpperCase()
-- trim()
-- valueOf(boolean b)
-- valueOf(char c)
-- valueOf(char[] data)
-- valueOf(char[] data, int offset, int count)
-- valueOf(double d)
-- valueOf(float f)
-- valueOf(int i)
-- valueOf(long l)
-- valueOf(Object obj)
-- valueOf(String s)
-- valueOf(StringBuffer sb)
-- valueOf(StringBuilder sb)
-- toCharArray()
-- toCharArray(int srcBegin, int srcEnd)
-- toString()
-- toLowerCase()
-- toUpperCase()
-- trim()
+[//]: # (- StringBuilder in Java)
 
+[//]: # (- String Concatenation in Java)
 
-**String Methods:**
-- String.charAt()
-- String.equals()
-- String.equalsIgnoreCase()
-- String.compareTo()
-- String.compareToIgnoreCase()
-- String.concat()
-- String.contains()
-- String.endsWith()
-- String.equalsIgnoreCase()
-- String.getBytes()
-- String.getBytes(String charsetName)
-- String.getBytes(Charset charset)
-- String.getChars()
-- String.indexOf()
-- String.lastIndexOf()
-- String.length()
-- String.matches()
-- String.replace()
-- String.replaceAll()
-- String.replaceFirst()
-- String.split()
-- String.startsWith()
-- String.substring()
-- String.toLowerCase()
-- String.toUpperCase()
-- String.trim()
-- String.valueOf()
-- String.valueOf(boolean b)
-- String.valueOf(char c)
-- String.valueOf(char[] data)
-- String.valueOf(char[] data, int offset, int count)
-- String.valueOf(double d)
-- String.valueOf(float f)
-- String.valueOf(int i)
-- String.valueOf(long l)
-- String.valueOf(Object obj)
-- String.valueOf(String s)
-- String.valueOf(StringBuffer sb)
-- String.valueOf(StringBuilder sb)
-- String.toCharArray()
-- String.toCharArray(int srcBegin, int srcEnd)
-- String.toString()
-- String.toUpperCase()
-- String.toLowerCase()
-- String.toCharArray()
+[//]: # (- String Comparisons in Java)
 
+[//]: # (- String Reversing in Java)
+
+[//]: # (- String Splitting in Java)
+
+[//]: # (- String Trimming in Java)
+
+[//]: # (- String to Integer Conversion in Java)
+
+[//]: # (- String to Double Conversion in Java)
+
+[//]: # (- String to Boolean Conversion in Java)
+
+[//]: # (- String to Character Array in Java)
+
+[//]: # (- String to Byte Array in Java)
+
+[//]: # (- String to Short Array in Java)
+
+[//]: # (- String to Integer Array in Java)
+
+[//]: # (- String to Long Array in Java)
+
+[//]: # (- String to Float Array in Java)
+
+[//]: # (- String to Double Array in Java)
+
+[//]: # (- String to Boolean Array in Java)
+
+[//]: # (- String to Object Array in Java)
+
+[//]: # (- String to String Array in Java)
+
+[//]: # (- String to List in Java)
+
+[//]: # (- String to Set in Java)
+
+[//]: # (- String to Map in Java)
+
+[//]: # (- String to Properties in Java)
+
+[//]: # (- String to URL in Java)
+
+[//]: # (- String to URI in Java)
+
+[//]: # (- String to Date in Java)
+
+[//]: # (- String to Calendar in Java)
+
+[//]: # (- String to BigInteger in Java)
+
+[//]: # (- String to BigDecimal in Java)
+
+[//]: # (- String to Enum in Java)
+
+[//]: # (- String to UUID in Java)
+
+[//]: # (- String to InetAddress in Java)
+
+[//]: # (- String to Charset in Java)
+
+[//]: # (- String to Currency in Java)
+
+[//]: # (- String to Locale in Java)
+
+[//]: # (- String to TimeZone in Java)
+
+[//]: # (- String to Calendar in Java)
+
+[//]: # (- String to StringBuilder in Java)
+
+[//]: # (- String to StringBuffer in Java)
+
+[//]: # (- String to RandomAccess in Java)
+
+[//]: # (- String to Comparable in Java)
+
+[//]: # (- String to Comparator in Java)
+
+[//]: # (- String to Pattern in Java)
+
+[//]: # (- String to InetAddress in Java)
+
+[//]: # (- String to Charset in Java)
+
+[//]: # (- String to Currency in Java)
+
+[//]: # (- String to Locale in Java)
+
+[//]: # (- String to TimeZone in Java)
+
+[//]: # (- String to Calendar in Java)
+
+[//]: # (- String to BigInteger in Java)
+
+[//]: # (- String to BigDecimal in Java)
+
+[//]: # (- String to Enum in Java)
+
+[//]: # (- String to UUID in Java)
+
+[//]: # (- String to InetAddress in Java)
+
+[//]: # (- String to Charset in Java)
+
+[//]: # (- String to Currency in Java)
+
+[//]: # (- String to Locale in Java)
+
+[//]: # (- String to TimeZone in Java)
+
+[//]: # (- String to Calendar in Java)
+
+[//]: # (- String to StringBuilder in Java)
+
+[//]: # (- String to StringBuffer in Java)
+
+[//]: # ()
+[//]: # (**String Constructors:**)
+
+[//]: # (- String&#40;&#41;)
+
+[//]: # (- String&#40;byte[] bytes&#41;)
+
+[//]: # (- String&#40;byte[] bytes, int offset, int length&#41;)
+
+[//]: # (- String&#40;byte[] bytes, Charset charset&#41;)
+
+[//]: # (- String&#40;byte[] bytes, int offset, int length, Charset charset&#41;)
+
+[//]: # (- String&#40;char[] value&#41;)
+
+[//]: # (- String&#40;char[] value, int offset, int count&#41;)
+
+[//]: # (- String&#40;String original&#41;)
+
+[//]: # (- String&#40;StringBuffer sb&#41;)
+
+[//]: # (- String&#40;StringBuilder sb&#41;)
+
+[//]: # (- String&#40;byte[] bytes, int offset, int length, String charsetName&#41;)
+
+[//]: # (- String&#40;byte[] bytes, String charsetName&#41;)
+
+[//]: # (- String&#40;byte[] bytes, Charset charset&#41;)
+
+[//]: # (- String&#40;byte[] bytes, int offset, int length, Charset charset&#41;)
+
+[//]: # (- String&#40;char[] value, int offset, int count&#41;)
+
+[//]: # ()
+[//]: # (**String Builder:**)
+
+[//]: # (- StringBuilder&#40;&#41;)
+
+[//]: # (- StringBuilder&#40;int capacity&#41;)
+
+[//]: # (- append&#40;&#41;)
+
+[//]: # (- append&#40;boolean b&#41;)
+
+[//]: # (- append&#40;char c&#41;)
+
+[//]: # (- append&#40;char[] str&#41;)
+
+[//]: # (- append&#40;char[] str, int offset, int len&#41;)
+
+[//]: # (- append&#40;double d&#41;)
+
+[//]: # (- append&#40;float f&#41;)
+
+[//]: # (- append&#40;int i&#41;)
+
+[//]: # (- append&#40;long lng&#41;)
+
+[//]: # (- append&#40;Object obj&#41;)
+
+[//]: # (- append&#40;String str&#41;)
+
+[//]: # (- append&#40;StringBuffer sb&#41;)
+
+[//]: # (- append&#40;StringBuilder sb&#41;)
+
+[//]: # (- appendCodePoint&#40;int codePoint&#41;)
+
+[//]: # (- delete&#40;int start, int end&#41;)
+
+[//]: # (- deleteCharAt&#40;int index&#41;)
+
+[//]: # (- insert&#40;int index, boolean b&#41;)
+
+[//]: # (- insert&#40;int index, char c&#41;)
+
+[//]: # (- insert&#40;int index, char[] str&#41;)
+
+[//]: # (- insert&#40;int index, char[] str, int offset, int len&#41;)
+
+[//]: # (- insert&#40;int index, double d&#41;)
+
+[//]: # (- insert&#40;int index, float f&#41;)
+
+[//]: # (- insert&#40;int index, int i&#41;)
+
+[//]: # (- insert&#40;int index, long l&#41;)
+
+[//]: # (- insert&#40;int index, Object obj&#41;)
+
+[//]: # (- insert&#40;int index, String str&#41;)
+
+[//]: # (- insert&#40;int index, StringBuffer sb&#41;)
+
+[//]: # (- insert&#40;int index, StringBuilder sb&#41;)
+
+[//]: # (- replace&#40;int start, int end, String str&#41;)
+
+[//]: # (- reverse&#40;&#41;)
+
+[//]: # (- setCharAt&#40;int index, char ch&#41;)
+
+[//]: # (- setLength&#40;int newLength&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- capacity&#40;&#41;)
+
+[//]: # (- length&#40;&#41;)
+
+[//]: # (- charAt&#40;int index&#41;)
+
+[//]: # (- codePointAt&#40;int index&#41;)
+
+[//]: # (- codePointBefore&#40;int index&#41;)
+
+[//]: # (- codePointCount&#40;int beginIndex, int endIndex&#41;)
+
+[//]: # (- offsetByCodePoints&#40;int index, int codePointOffset&#41;)
+
+[//]: # (- substring&#40;int start&#41;)
+
+[//]: # (- substring&#40;int start, int end&#41;)
+
+[//]: # (- subSequence&#40;int start, int end&#41;)
+
+[//]: # (- trimToSize&#40;&#41;)
+
+[//]: # (- ensureCapacity&#40;int minimumCapacity&#41;)
+
+[//]: # (- indexOf&#40;String str&#41;)
+
+[//]: # (- indexOf&#40;String str, int fromIndex&#41;)
+
+[//]: # (- lastIndexOf&#40;String str&#41;)
+
+[//]: # (- lastIndexOf&#40;String str, int fromIndex&#41;)
+
+[//]: # (- equals&#40;Object anObject&#41;)
+
+[//]: # (- hashCode&#40;&#41;)
+
+[//]: # (- compareTo&#40;String anotherString&#41;)
+
+[//]: # (- compareToIgnoreCase&#40;String str&#41;)
+
+[//]: # (- isEmpty&#40;&#41;)
+
+[//]: # (- isBlank&#40;&#41;)
+
+[//]: # (- isDigit&#40;&#41;)
+
+[//]: # (- isLetter&#40;&#41;)
+
+[//]: # (- isLetterOrDigit&#40;&#41;)
+
+[//]: # (- isLowerCase&#40;&#41;)
+
+[//]: # (- isUpperCase&#40;&#41;)
+
+[//]: # (- isWhitespace&#40;&#41;)
+
+[//]: # (- matches&#40;String regex&#41;)
+
+[//]: # (- replaceAll&#40;String regex, String replacement&#41;)
+
+[//]: # (- replaceFirst&#40;String regex, String replacement&#41;)
+
+[//]: # (- split&#40;String regex&#41;)
+
+[//]: # (- split&#40;String regex, int limit&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # (- valueOf&#40;boolean b&#41;)
+
+[//]: # (- valueOf&#40;char c&#41;)
+
+[//]: # (- valueOf&#40;char[] data&#41;)
+
+[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- valueOf&#40;double d&#41;)
+
+[//]: # (- valueOf&#40;float f&#41;)
+
+[//]: # (- valueOf&#40;int i&#41;)
+
+[//]: # (- valueOf&#40;long l&#41;)
+
+[//]: # (- valueOf&#40;Object obj&#41;)
+
+[//]: # (- valueOf&#40;String s&#41;)
+
+[//]: # (- valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # (- valueOf&#40;boolean b&#41;)
+
+[//]: # (- valueOf&#40;char c&#41;)
+
+[//]: # (- valueOf&#40;char[] data&#41;)
+
+[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- valueOf&#40;double d&#41;)
+
+[//]: # (- valueOf&#40;float f&#41;)
+
+[//]: # (- valueOf&#40;int i&#41;)
+
+[//]: # (- valueOf&#40;long l&#41;)
+
+[//]: # (- valueOf&#40;Object obj&#41;)
+
+[//]: # (- valueOf&#40;String s&#41;)
+
+[//]: # (- valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # (- valueOf&#40;boolean b&#41;)
+
+[//]: # (- valueOf&#40;char c&#41;)
+
+[//]: # (- valueOf&#40;char[] data&#41;)
+
+[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- valueOf&#40;double d&#41;)
+
+[//]: # (- valueOf&#40;float f&#41;)
+
+[//]: # (- valueOf&#40;int i&#41;)
+
+[//]: # (- valueOf&#40;long l&#41;)
+
+[//]: # (- valueOf&#40;Object obj&#41;)
+
+[//]: # (- valueOf&#40;String s&#41;)
+
+[//]: # (- valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # (- valueOf&#40;boolean b&#41;)
+
+[//]: # (- valueOf&#40;char c&#41;)
+
+[//]: # (- valueOf&#40;char[] data&#41;)
+
+[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- valueOf&#40;double d&#41;)
+
+[//]: # (- valueOf&#40;float f&#41;)
+
+[//]: # (- valueOf&#40;int i&#41;)
+
+[//]: # (- valueOf&#40;long l&#41;)
+
+[//]: # (- valueOf&#40;Object obj&#41;)
+
+[//]: # (- valueOf&#40;String s&#41;)
+
+[//]: # (- valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # (- valueOf&#40;boolean b&#41;)
+
+[//]: # (- valueOf&#40;char c&#41;)
+
+[//]: # (- valueOf&#40;char[] data&#41;)
+
+[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- valueOf&#40;double d&#41;)
+
+[//]: # (- valueOf&#40;float f&#41;)
+
+[//]: # (- valueOf&#40;int i&#41;)
+
+[//]: # (- valueOf&#40;long l&#41;)
+
+[//]: # (- valueOf&#40;Object obj&#41;)
+
+[//]: # (- valueOf&#40;String s&#41;)
+
+[//]: # (- valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # (- valueOf&#40;boolean b&#41;)
+
+[//]: # (- valueOf&#40;char c&#41;)
+
+[//]: # (- valueOf&#40;char[] data&#41;)
+
+[//]: # (- valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- valueOf&#40;double d&#41;)
+
+[//]: # (- valueOf&#40;float f&#41;)
+
+[//]: # (- valueOf&#40;int i&#41;)
+
+[//]: # (- valueOf&#40;long l&#41;)
+
+[//]: # (- valueOf&#40;Object obj&#41;)
+
+[//]: # (- valueOf&#40;String s&#41;)
+
+[//]: # (- valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- toCharArray&#40;&#41;)
+
+[//]: # (- toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- toString&#40;&#41;)
+
+[//]: # (- toLowerCase&#40;&#41;)
+
+[//]: # (- toUpperCase&#40;&#41;)
+
+[//]: # (- trim&#40;&#41;)
+
+[//]: # ()
+[//]: # ()
+[//]: # (**String Methods:**)
+
+[//]: # (- String.charAt&#40;&#41;)
+
+[//]: # (- String.equals&#40;&#41;)
+
+[//]: # (- String.equalsIgnoreCase&#40;&#41;)
+
+[//]: # (- String.compareTo&#40;&#41;)
+
+[//]: # (- String.compareToIgnoreCase&#40;&#41;)
+
+[//]: # (- String.concat&#40;&#41;)
+
+[//]: # (- String.contains&#40;&#41;)
+
+[//]: # (- String.endsWith&#40;&#41;)
+
+[//]: # (- String.equalsIgnoreCase&#40;&#41;)
+
+[//]: # (- String.getBytes&#40;&#41;)
+
+[//]: # (- String.getBytes&#40;String charsetName&#41;)
+
+[//]: # (- String.getBytes&#40;Charset charset&#41;)
+
+[//]: # (- String.getChars&#40;&#41;)
+
+[//]: # (- String.indexOf&#40;&#41;)
+
+[//]: # (- String.lastIndexOf&#40;&#41;)
+
+[//]: # (- String.length&#40;&#41;)
+
+[//]: # (- String.matches&#40;&#41;)
+
+[//]: # (- String.replace&#40;&#41;)
+
+[//]: # (- String.replaceAll&#40;&#41;)
+
+[//]: # (- String.replaceFirst&#40;&#41;)
+
+[//]: # (- String.split&#40;&#41;)
+
+[//]: # (- String.startsWith&#40;&#41;)
+
+[//]: # (- String.substring&#40;&#41;)
+
+[//]: # (- String.toLowerCase&#40;&#41;)
+
+[//]: # (- String.toUpperCase&#40;&#41;)
+
+[//]: # (- String.trim&#40;&#41;)
+
+[//]: # (- String.valueOf&#40;&#41;)
+
+[//]: # (- String.valueOf&#40;boolean b&#41;)
+
+[//]: # (- String.valueOf&#40;char c&#41;)
+
+[//]: # (- String.valueOf&#40;char[] data&#41;)
+
+[//]: # (- String.valueOf&#40;char[] data, int offset, int count&#41;)
+
+[//]: # (- String.valueOf&#40;double d&#41;)
+
+[//]: # (- String.valueOf&#40;float f&#41;)
+
+[//]: # (- String.valueOf&#40;int i&#41;)
+
+[//]: # (- String.valueOf&#40;long l&#41;)
+
+[//]: # (- String.valueOf&#40;Object obj&#41;)
+
+[//]: # (- String.valueOf&#40;String s&#41;)
+
+[//]: # (- String.valueOf&#40;StringBuffer sb&#41;)
+
+[//]: # (- String.valueOf&#40;StringBuilder sb&#41;)
+
+[//]: # (- String.toCharArray&#40;&#41;)
+
+[//]: # (- String.toCharArray&#40;int srcBegin, int srcEnd&#41;)
+
+[//]: # (- String.toString&#40;&#41;)
+
+[//]: # (- String.toUpperCase&#40;&#41;)
+
+[//]: # (- String.toLowerCase&#40;&#41;)
+
+[//]: # (- String.toCharArray&#40;&#41;)
+
+[//]: # ()
 
 **Arrays**:
 - Introduction to Arrays
