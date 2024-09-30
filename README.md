@@ -69,16 +69,23 @@ The repository has three sections: Arrays, Linked Lists, and Hashmap. Each secti
 **Linked Lists:**
 - Introduction to Data Structures
 - Introduction to Linked List
-- Read: O(n)
-- Insertion: O(1)
-- Deletion: O(1)
+- **Time and Space Complexity Analysis of Arrays**:
+  - Read: O(n)
+  - Insertion: O(1)
+  - Deletion: O(1)
 - Slow at reading but efficient for insertion and deletion.
 
 **Hashmap:**
-Introduction to Hashmap
-- Read: O(1)
-- Insertion: O(1)
-- Deletion: O(1)
+Introduction to Hashmap:
+- A data structure that stores key-value pairs.
+- Hashmaps are implemented using arrays or linked lists.
+- Hashmaps are implemented using a hash function to map keys to indexes in an array or linked list.
+- Hashmaps are efficient for searching and inserting data.
+- Hashmaps are not ordered, but provide fast lookup
+- **Time and Space Complexity Analysis of Arrays**:
+  - Read: O(1)
+  - Insertion: O(1)
+  - Deletion: O(1)
 - Similar to arrays but with named indexes (keys); unordered but provide fast lookup.
 - Useful for tasks like dictionary implementations.
 - Hashmaps are often used in caching, where the data is frequently accessed and the cost of accessing the data is high.
@@ -96,25 +103,28 @@ Introduction to Heaps
 - Heaps can be used to implement Dijkstra's shortest path algorithm, which is a popular graph algorithm.
 - Heaps can be used to implement the heap data structure used in the heapsort algorithm.
 
-**Intro to Stack**:
-- Push: O(1)
-- Pop: O(1)
-- Peak: O(1)
+**Intro to Stack**
+- **Time and Space Complexity Analysis of Arrays**:
+  - Push: O(1)
+  - Pop: O(1)
+  - Peak: O(1)
 - Follow the LIFO (Last In, First Out) principle; useful for fast retrieval of the topmost element but can be cumbersome for inserting or deleting elements in the middle or end.
 
 **Intro to Queues**:
-- Enqueue: O(1)
-- Dequeue: O(1)
-- Front: O(1)
+- **Time and Space Complexity Analysis of Arrays**:
+  - Enqueue: O(1)
+  - Dequeue: O(1)
+  - Front: O(1)
 - Follow the FIFO (First In, First Out) principle; the first element in line is the first to come out. Think of them as playlists for organizing items in order of arrival.
 
 
 **Trees:**
-Intro to Trees
-- Read/Search: O(log n)
-- Insertion: O(log n)
-- Deletion: O(log n)
-- Nodes connected by edges; root, parent-child connections.
+Intro to Trees:
+- **Time and Space Complexity Analysis of Arrays**:
+  - Read/Search: O(log n)
+  - Insertion: O(log n)
+  - Deletion: O(log n)
+  - Nodes connected by edges; root, parent-child connections.
 
 
 **Binary Tree:**
@@ -163,9 +173,10 @@ Introduction to Trie
 
 **Graphs:**
 Introduction to Graphs
-- Traversal/Search: O(V + E) (V: number of vertices, E: number of edges)
-- Insertion: O(1)
-- Deletion: O(1)
+- **Time and Space Complexity Analysis of Arrays**:
+  - Traversal/Search: O(V + E) (V: number of vertices, E: number of edges)
+  - Insertion: O(1)
+  - Deletion: O(1)
 - Versatile models for connections between nodes and edges; can be directed or undirected with no neighboring limit. Can include cycles and weights on paths. Used for tasks like route optimization.
 - Graphs are used in tasks like routing, social networks, and pathfinding.
 - Graphs are used in tasks like clustering, community detection, and recommendation systems.

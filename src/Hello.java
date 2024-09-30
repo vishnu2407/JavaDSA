@@ -6,5 +6,9 @@ public class Hello {
             break;
         }
         System.out.println("Hello World !!!");
+
+        String name = "Vishnu";
+        int age = 26;
+        System.out.println("My name is " + name + " and I am " + age + " years old.");
     }
 }

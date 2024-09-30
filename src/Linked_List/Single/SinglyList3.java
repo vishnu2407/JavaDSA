@@ -6,7 +6,7 @@ public class SinglyList3 {
     // Class for each node
     public static class ListNode {
         private int data;
-        private ListNode next;
+        public ListNode next;
         public ListNode(int data) {
             this.data = data;
             this.next = null;
