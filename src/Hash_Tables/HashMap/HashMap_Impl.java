@@ -143,6 +143,10 @@ public class HashMap_Impl {
             map.put("Canada", 30);
             map.put("India", 190);
 
+            //Time taken for put operation: 0ms
+            double now = System.currentTimeMillis();
+            System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+
 
             ArrayList<String> keys = map.keySet();
             for(int i=0; i<keys.size(); i++){

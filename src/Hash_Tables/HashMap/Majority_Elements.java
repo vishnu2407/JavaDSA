@@ -32,6 +32,9 @@ public class Majority_Elements {
         int nums1[] = {1,3,2,5,1,3,1,5,1};
         int nums2[] ={1,2};
 
+        double now = System.currentTimeMillis();
+        System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+
         System.out.println("Majority elements of array 1:" + Arrays.toString(nums1));
         System.out.println("------------------------------------------------");
 
