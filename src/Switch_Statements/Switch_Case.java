@@ -1,3 +1,5 @@
+package Switch_Statements;
+
 // Java program to demonstrate switch-case statement
 // Switch-case statement is used to execute different code blocks based on the value of a variable.
 // In this program, we have used a switch-case statement to perform arithmetic operations on two integers.
