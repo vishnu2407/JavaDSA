@@ -1,4 +1,4 @@
-package Loops;
+package Loops.For_Loop;
 
 import java.util.Scanner;
 public class Game {

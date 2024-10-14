@@ -62,13 +62,19 @@ public class Levelorder_Traversal {
     public static void main(String[] args) {
         //Build Tree Preorder sequence
         int nodes[] ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        // Tree Structure:
+        //       1
+        //     /    \
+        //    2       3
+        //   / \     / \
+        //  4   5   -1  6
 
         BinaryTree tree = new BinaryTree();
        Node root =tree.buildTree(nodes);
 
         //Time taken to build the tree
         double now = System.currentTimeMillis();
-        System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+        System.out.println(STR."Time taken: \{System.currentTimeMillis() - now}ms");
 
        //Levelorder Traversal
         levelorderTraversal(root);

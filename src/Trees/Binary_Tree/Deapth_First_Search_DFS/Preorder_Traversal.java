@@ -1,7 +1,7 @@
 package Trees.Binary_Tree.Deapth_First_Search_DFS;
 
 public class Preorder_Traversal {
-
+    //Node class
     static class Node{
         int data;
         Node right, left;
@@ -11,7 +11,7 @@ public class Preorder_Traversal {
             this.right= this.left= null;
         }
     }
-
+    //BinaryTree class
     static class BinaryTree{
         static int index= -1;
         public static Node buildTree(int[] nodes){
@@ -37,10 +37,10 @@ public class Preorder_Traversal {
         preorderTraversal(root.right);
         //return 0;
     }
-
+    //Main method
     public static void main(String[] args) {
         //Build Tree Preorder sequence
-        int[] nodes ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        int[] nodes = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
 
         BinaryTree tree = new BinaryTree();
         Node root = BinaryTree.buildTree(nodes);

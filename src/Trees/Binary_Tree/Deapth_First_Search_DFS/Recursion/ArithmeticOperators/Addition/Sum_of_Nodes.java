@@ -1,4 +1,4 @@
-package Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion;
+package Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion.ArithmeticOperators.Addition;
 
 public class Sum_of_Nodes {
     static class Node{
@@ -36,10 +36,17 @@ public class Sum_of_Nodes {
     }
 
     public static void main(String[] args) {
-        int nodes[] ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        //Creating the binary tree
+        int[] nodes ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        // Tree Structure:
+        //       1
+        //     /    \
+        //    2       3
+        //   / \     / \
+        //  4   5   -1  6
 
-       BinaryTree tree = new BinaryTree();
-       Node root =tree.buildTree(nodes);
+        //Building the binary tree
+       Node root = BinaryTree.buildTree(nodes);
 
         //Time taken to build the tree
         double now = System.currentTimeMillis();
@@ -47,6 +54,6 @@ public class Sum_of_Nodes {
 
 
         //Sum of all nodes in the binary tree
-        System.out.println(sumOfNodes(root));
+        System.out.println("Sum of all nodes in the binary tree: " + sumOfNodes(root));
     }
 }

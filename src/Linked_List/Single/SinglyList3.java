@@ -22,8 +22,10 @@ public class SinglyList3 {
         list.head = new ListNode(1);
         ListNode second = new ListNode(2);
         ListNode third = new ListNode(3);
+
         list.head.next = second;
         second.next = third;
+
         ListNode current = list.head;
         while (current != null) {
             System.out.print(current.data + "-->");

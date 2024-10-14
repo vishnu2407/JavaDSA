@@ -1,6 +1,6 @@
-package Trie_Data_Structure;
+package Trie;
 
-public class Insert_Word_Into_Trie {
+public class Insert_Search_Word_Into_Trie {
     //Node Function
     static class Node{
        Node[] children;
@@ -46,28 +46,27 @@ public class Insert_Word_Into_Trie {
                 return false;
             }
 
-            if(curr.children[index] == null){
+            if(i == key.length()-1 && !node.endOfWord){  //node.endOfWord == false
                 return false;
             }
-            if(i == key.length()-1 && node.endOfWord == false){
-                return false;
-            }
-            curr = curr.children[index]; //move to the child node
+            curr = node ;//curr.children[index] move to the child node
         }
         return true;
     }
 
 
     // Main method
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // Trie Data Structure
-        String words[] ={"vishnu", "vivek", "vijay", "vamshi", "geya"};
+        String[] words ={"vishnu", "vivek", "vijay", "vamshi", "geya"};
 
         // Insert words into Trie
-        for(int i=0; i<words.length; i++){
-            insert(words[i]);
+        for (String word : words) {
+            insert(word);
         }
-
+//        for(int i=0; i<words.length; i++){
+//            insert(words[i]);
+//        }
         // Search for a word in Trie
         System.out.println(search("Vishnu")); //true
         System.out.println(search("Vish")); //false

@@ -52,6 +52,12 @@ public class Diameter_of_Approach_1 {
 
     public static void main(String[] args) {
         int nodes[] ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        // Tree Structure:
+        //       1
+        //     /    \
+        //    2       3
+        //   / \     / \
+        //  4   5   -1  6
 
        BinaryTree tree = new BinaryTree();
        Node root =tree.buildTree(nodes);

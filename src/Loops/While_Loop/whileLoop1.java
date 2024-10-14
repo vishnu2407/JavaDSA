@@ -1,4 +1,4 @@
-package Loops;
+package Loops.While_Loop;
 
 public class whileLoop1 {
     public static void main(String[] args) {

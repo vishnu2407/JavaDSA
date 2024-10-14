@@ -1,13 +1,12 @@
 package Linked_List.Single;
 
-import java.util.Arrays;
 
 public class SinglyList1
 {
     private ListNode head;
 
     private static class ListNode {
-        private int data;
+        private final int data;
         private ListNode next;
 
         public ListNode(int data) {
@@ -16,9 +15,8 @@ public class SinglyList1
         }
     }
     public static void main(String[] args) {
-
         double now = System.currentTimeMillis();
-        System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
+        System.out.println(STR."Time taken: \{System.currentTimeMillis() - now}ms");
 
         SinglyList1 list = new SinglyList1();
 

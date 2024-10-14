@@ -1,6 +1,6 @@
 package Patterns;
 
-public class RectangleTrianglePattern {
+public class RectanglePattern {
     // Function to print the pattern
     public static void printPattern(int n) {
         int rows = 2 * n - 1;

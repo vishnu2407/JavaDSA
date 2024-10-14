@@ -1,4 +1,4 @@
-package Loops;
+package Loops.For_Loop;
 
 public class double_amount {
     public static void main(String[] args) {
