@@ -1,6 +1,6 @@
 package Loops.For_Loop;
 
-public class forLoop1 {
+public class evenforLoop {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
