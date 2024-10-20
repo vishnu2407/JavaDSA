@@ -1,7 +1,8 @@
 package DSA_JAVA_Concepts.Linear_DS.Linked_List.Single;
 
 
-public class SinglyList1
+public class SinglyList_Integers
+
 {
     private ListNode head;
 
@@ -18,7 +19,7 @@ public class SinglyList1
         double now = System.currentTimeMillis();
         System.out.println(STR."Time taken: \{System.currentTimeMillis() - now}ms");
 
-        SinglyList1 list = new SinglyList1();
+        SinglyList_Integers list = new SinglyList_Integers();
 
         list.head = new ListNode(10);
         ListNode second = new ListNode(8);

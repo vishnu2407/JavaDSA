@@ -1,6 +1,6 @@
 package DSA_JAVA_Concepts.Linear_DS.Linked_List.Single;
 
-public class SinglyList2 {
+public class SinglyList_Strings {
     private ListNode head;
 
     private static class ListNode {
@@ -18,7 +18,7 @@ public class SinglyList2 {
         double now = System.currentTimeMillis();
         System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
 
-        SinglyList2 list = new SinglyList2();
+        SinglyList_Strings list = new SinglyList_Strings();
 
         list.head = new ListNode("Vishnu");
         ListNode second = new ListNode("Vamshi");

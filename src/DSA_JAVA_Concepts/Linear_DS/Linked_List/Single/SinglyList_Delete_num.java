@@ -1,6 +1,6 @@
 package DSA_JAVA_Concepts.Linear_DS.Linked_List.Single;
 
-public class SinglyList4 {
+public class SinglyList_Delete_num {
     //Write a function to delete the first occurrence of a given value in a singly linked list.
     private ListNode head;
 
@@ -47,7 +47,7 @@ public class SinglyList4 {
         double now = System.currentTimeMillis();
         System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
 
-        SinglyList4 list = new SinglyList4();
+        SinglyList_Delete_num list = new SinglyList_Delete_num();
         list.head = new ListNode(100);
         ListNode second = new ListNode(200);
         ListNode third = new ListNode(300);

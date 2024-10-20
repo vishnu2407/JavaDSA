@@ -1,4 +1,4 @@
-package Design_Patterns;
+package Basic_Java_Concepts.Patterns;
 
 public class ReverseRightAngleTrianglePattern {
     // Function to print pattern

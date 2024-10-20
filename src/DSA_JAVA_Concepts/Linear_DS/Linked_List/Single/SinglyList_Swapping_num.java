@@ -1,6 +1,6 @@
 package DSA_JAVA_Concepts.Linear_DS.Linked_List.Single;
 
-public class SinglyList7 {
+public class SinglyList_Swapping_num {
 
     private ListNode head;
 
@@ -56,14 +56,16 @@ public class SinglyList7 {
         double now = System.currentTimeMillis();
         System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
 
-        SinglyList7 list = new SinglyList7();
+        SinglyList_Swapping_num list = new SinglyList_Swapping_num();
         list.head = new ListNode(10);
         list.head.next = new ListNode(8);
         list.head.next.next = new ListNode(4);
         list.head.next.next.next = new ListNode(2);
         list.head.next.next.next.next = new ListNode(0);
+        list.printList();
+        System.out.println();
         list.swapNodes(2, 8);
-        System.out.println("Linked List after swapping:");
+        System.out.print("Linked List after swapping: ");
         list.printList();
     }
 }

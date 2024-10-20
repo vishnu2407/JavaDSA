@@ -41,4 +41,5 @@ public class ArrayUtil {
         System.out.println("Concatenated array: " + Arrays.toString(concat));
         System.out.println("Shuffled array: " + Arrays.toString(shuffled));
     }
+
 }
