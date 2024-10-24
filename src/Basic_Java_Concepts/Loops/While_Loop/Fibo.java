@@ -14,9 +14,9 @@ public class Fibo {
         System.out.println(b);
 
         while (count <= n){
-            int temp = b;
+            int c = b;
             b = a+b;
-            a = temp;
+            a = c;
             count++;
         }
 
