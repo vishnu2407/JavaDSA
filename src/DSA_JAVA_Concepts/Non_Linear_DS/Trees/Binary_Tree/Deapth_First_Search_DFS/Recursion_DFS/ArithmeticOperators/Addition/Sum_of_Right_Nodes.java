@@ -1,4 +1,4 @@
-package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion.ArithmeticOperators.Addition;
+package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion_DFS.ArithmeticOperators.Addition;
 
 public class Sum_of_Right_Nodes {
     //Node Class

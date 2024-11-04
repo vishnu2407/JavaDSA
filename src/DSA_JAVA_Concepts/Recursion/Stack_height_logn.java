@@ -1,6 +1,6 @@
 package DSA_JAVA_Concepts.Recursion;
 
-public class powerofNthterm {
+public class Stack_height_logn {
     public static int power(int x, int n){
         if (n == 0) { //Base case 1
         return 1;
@@ -8,7 +8,14 @@ public class powerofNthterm {
         if (x == 0) { //Base case 2
         return 0;
         }
-        return x * power(x,n-1); //Recursive case
+        //if n is even
+        if(n % 2 == 0){
+            return power(x, n/2) * power(x, n/2);
+        }
+        //if n is odd
+        else{
+            return power(x, n/2) * power(x, n/2) * x;
+        }
     }
     public static void main(String[] args) {
         int x=2, n=5;

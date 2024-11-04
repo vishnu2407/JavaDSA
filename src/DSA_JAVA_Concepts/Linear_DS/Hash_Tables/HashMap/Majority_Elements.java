@@ -9,7 +9,7 @@ public class Majority_Elements {
         HashMap<Integer, Integer> map = new HashMap<>(); // <key, value>
         int n = nums.length;
 
-        // Step 2: Traverse the array and update the frequency of each element in the HashMap
+        // Step 2: Traversal the array and update the frequency of each element in the HashMap
         for(int i=0; i<n; i++){ //true
             if(map.containsKey(nums[i])){
                 map.put(nums[i], map.get(nums[i])+1);
@@ -19,7 +19,7 @@ public class Majority_Elements {
             }
         }
 
-        // Step 3: Traverse the HashMap and print the element(s) with frequency greater than n/3
+        // Step 3: Traversal the HashMap and print the element(s) with frequency greater than n/3
         for(int key : map.keySet()){ //true
             if(map.get(key) > n/3){
                 System.out.println(key + " " + map.get(key));

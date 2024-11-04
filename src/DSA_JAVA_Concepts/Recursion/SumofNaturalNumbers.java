@@ -7,32 +7,32 @@ public class SumofNaturalNumbers {
     //Parameters : i - current number being added to the sum
     //             n - total number of natural numbers
     //             sum - current sum of natural numbers
-    public static int printsum(int i, int n, int sum){
-        if(i==n){
-            sum+=i;
-            return sum;
-        }
-        sum+=i;
-        return printsum(i+1,n,sum);
-        //System.out.println(i);
-
-    }
-    //Recursive function to find the sum of first n natural numbers
-//    public static int sum(int n){
-//        if(n==0){
-//            return 0;
+//    public static int printsum(int i, int n, int sum){
+//        if(i==n){
+//            sum+=i;
+//            return sum;
 //        }
-//        return n+sum(n-1);
+//        sum+=i;
+//        return printsum(i+1,n,sum);
+//        //System.out.println(i);
+//
 //    }
+    //Recursive function to find the sum of first n natural numbers
+    public static int sum(int n){
+        if(n==0){
+            return 0;
+        }
+        return n+sum(n-1);
+    }
     public static void main(String[] args) {
         //Calling the recursive function to find the sum of first 5 natural numbers
        //printsum(1, 5, 0);
-        System.out.println("The sum of first n natural numbers is: "+printsum(1, 6, 0));
+//        System.out.println("The sum of first n natural numbers is: "+printsum(1, 6, 0));
 
 
-       //int n =5;
-        //int sum = sum(n);
-        //System.out.println("The sum of first "+n+" natural numbers is: "+sum);
+       int n =5;
+        int sum = sum(n);
+        System.out.println("The sum of first "+n+" natural numbers is: "+sum);
         //Using recursion to find the sum of first n natural numbers
 
         //Using for loop to find the sum of first n natural numbers

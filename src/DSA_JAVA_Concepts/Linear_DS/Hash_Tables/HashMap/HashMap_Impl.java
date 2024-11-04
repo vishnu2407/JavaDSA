@@ -145,6 +145,10 @@ public class HashMap_Impl {
             double now = System.currentTimeMillis();
             System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
 
+            System.out.println("------------------------------------------------");
+
+            //Time taken for get operation: 0ms
+
 
             ArrayList<String> keys = map.keySet();
             for(int i=0; i<keys.size(); i++){

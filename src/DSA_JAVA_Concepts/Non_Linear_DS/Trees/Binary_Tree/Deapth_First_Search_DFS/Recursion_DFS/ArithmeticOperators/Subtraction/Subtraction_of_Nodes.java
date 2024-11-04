@@ -1,4 +1,4 @@
-package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion.ArithmeticOperators.Subtraction;
+package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion_DFS.ArithmeticOperators.Subtraction;
 
 public class Subtraction_of_Nodes {
     static class Node{

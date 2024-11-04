@@ -1,9 +1,11 @@
-package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion;
+package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion_DFS;
 
-public class Height_of_Nodes {
+public class Diameter_of_Approach_1 {
+    //Time Complexity to calculate the height of a Tree is O(n^2)
     static class Node{
         int data;
-        Node right, left;
+        Node right;
+        Node left;
 
         Node(int data){
             this.data= data;
@@ -38,8 +40,17 @@ public class Height_of_Nodes {
 
     }
 
+    public static int diameterOfNodes(Node root){
+        if(root == null){
+            return 0;
+        }
+        int diam1 = diameterOfNodes(root.left);
+        int diam2 = diameterOfNodes(root.right);
+        int diam3 = heightofNodes(root.left) + heightofNodes(root.right) + 1;
+        return Math.max(diam3, Math.max(diam1, diam2));
+    }
+
     public static void main(String[] args) {
-        //Build Tree Preorder sequence
         int nodes[] ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         // Tree Structure:
         //       1
@@ -48,16 +59,15 @@ public class Height_of_Nodes {
         //   / \     / \
         //  4   5   -1  6
 
-        BinaryTree tree = new BinaryTree();
-      Node root =tree.buildTree(nodes);
+       BinaryTree tree = new BinaryTree();
+       Node root =tree.buildTree(nodes);
 
         //Time taken to build the tree
         double now = System.currentTimeMillis();
         System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
 
 
-        //Levelorder Traversal
-        //countofNodes(root);
-        System.out.println("Height of the tree is: " + heightofNodes(root));
+        //Sum of all nodes in the binary tree
+        System.out.println("Diameter of the binary tree is with approach 2[O(n^2)]: " + diameterOfNodes(root));
     }
 }

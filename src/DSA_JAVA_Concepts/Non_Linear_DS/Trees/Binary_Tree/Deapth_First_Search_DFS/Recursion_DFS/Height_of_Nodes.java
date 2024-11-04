@@ -1,6 +1,6 @@
-package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion.ArithmeticOperators.Addition;
+package DSA_JAVA_Concepts.Non_Linear_DS.Trees.Binary_Tree.Deapth_First_Search_DFS.Recursion_DFS;
 
-public class Sum_of_Nodes {
+public class Height_of_Nodes {
     static class Node{
         int data;
         Node right, left;
@@ -25,19 +25,22 @@ public class Sum_of_Nodes {
             return newNode;
         }
     }
-
-    public static int sumOfNodes(Node root){
+    public static int heightofNodes(Node root){
         if(root == null){
             return 0;
         }
-        int leftSum = sumOfNodes(root.left);
-        int rightSum = sumOfNodes(root.right);
-        return root.data + leftSum + rightSum;
+        int leftNodes = heightofNodes(root.left);
+        int rightNodes = heightofNodes(root.right);
+
+        //Calculate the height of the current node
+        int myHeight = Math.max(leftNodes, rightNodes) + 1;
+        return myHeight;
+
     }
 
     public static void main(String[] args) {
-        //Creating the binary tree
-        int[] nodes ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        //Build Tree Preorder sequence
+        int nodes[] ={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         // Tree Structure:
         //       1
         //     /    \
@@ -45,15 +48,16 @@ public class Sum_of_Nodes {
         //   / \     / \
         //  4   5   -1  6
 
-        //Building the binary tree
-       Node root = BinaryTree.buildTree(nodes);
+        BinaryTree tree = new BinaryTree();
+      Node root =tree.buildTree(nodes);
 
         //Time taken to build the tree
         double now = System.currentTimeMillis();
         System.out.println("Time taken: " + (System.currentTimeMillis() - now) + "ms");
 
 
-        //Sum of all nodes in the binary tree
-        System.out.println("Sum of all nodes in the binary tree: " + sumOfNodes(root));
+        //Levelorder Traversal
+        //countofNodes(root);
+        System.out.println("Height of the tree is: " + heightofNodes(root));
     }
 }
